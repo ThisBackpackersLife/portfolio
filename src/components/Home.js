@@ -1,23 +1,26 @@
 import React from "react";
+import logo from "../images/NMSE.png";
+// Import CSS
+import './Home.css';
 
 function Home() {
 
     return (
-    <body>
-        <header class="header">
-            <div class="logo-box">
-                <img src="img/logo-white.png" alt="Logo" class="logo" />
+        <header className="header">
+            <div className="logo-box">
+                <img src={ logo } alt="Logo" className="logo" />
             </div>
-            <div class="text-box">
-                <h1 class="heading-primary">
-                    <span class="heading-primary-main">Outdoors</span>
-                    <span class="heading-primary-sub">is where life happens</span>
+            <div className="text-box">
+                <h1 className="heading-primary">
+                    <span className="heading-primary-main">Nicholas Martin</span>
+                    <span className="heading-primary-sub">Software Engineer</span>
+                    <span className="heading-secondary-sub">&</span>
+                    <span className="heading-secondary-sub">Website Developer</span>
                 </h1>
-
-                <a href="#" class="btn btn-white btn-animated">Discover our tours</a>
+                <a href="#" className="btn btn-white btn-animated">Explore my creations</a>
+                <a href="#" className="btn btn-white btn-animated">Download my resume</a>
             </div>
         </header>
-    </body>
     )
 }
 
