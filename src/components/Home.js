@@ -1,7 +1,8 @@
 import React from "react";
 import logo from "../images/NMSE.png";
-// Import CSS
-import './Home.css';
+// Import SASS/CSS Styling:
+// import './Home.css';
+import '../sass/main.scss';
 
 function Home() {
 
