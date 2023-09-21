@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <Home />
-      <Grid />
+      {/* <Grid /> */}
     </div>
   );
 }
