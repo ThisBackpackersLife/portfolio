@@ -1,4 +1,6 @@
 import React from "react";
+// Import SASS/CSS Styling:
+import '../main.scss';
 
 function Grid() {
 
