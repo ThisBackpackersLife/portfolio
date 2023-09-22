@@ -2,6 +2,7 @@ import React from 'react';
 // Import components
 import Home from './Home';
 import Grid from './Grid';
+import About from './About';
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div>
       <Home />
       {/* <Grid /> */}
+      <About />
     </div>
   );
 }
