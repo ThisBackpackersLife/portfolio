@@ -10,7 +10,7 @@ function Stack() {
                 <div className="row">
                     <div className="col-1-of-4">
                         <div className="feature-box">
-                            <i className="feature-box__icon icon-basic-world"></i>
+                            <i className="feature-box__icon icon-basic-archive-full"></i>
                             <h3 className="heading-tertiary u-margin-bottom-small">Flask Python</h3>
                             <p className="feature-box__text">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -20,8 +20,8 @@ function Stack() {
 
                     <div className="col-1-of-4">
                         <div className="feature-box">
-                            <i className="feature-box__icon icon-basic-world"></i>
-                            <h3 className="heading-tertiary u-margin-bottom-small">Flask Python</h3>
+                            <i className="feature-box__icon icon-basic-gear"></i>
+                            <h3 className="heading-tertiary u-margin-bottom-small">React</h3>
                             <p className="feature-box__text">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             </p>
@@ -30,8 +30,8 @@ function Stack() {
 
                     <div className="col-1-of-4">
                         <div className="feature-box">
-                            <i className="feature-box__icon icon-basic-world"></i>
-                            <h3 className="heading-tertiary u-margin-bottom-small">Flask Python</h3>
+                            <i className="feature-box__icon icon-basic-pencil-ruler"></i>
+                            <h3 className="heading-tertiary u-margin-bottom-small">SASS/CSS</h3>
                             <p className="feature-box__text">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             </p>
@@ -40,8 +40,8 @@ function Stack() {
 
                     <div className="col-1-of-4">
                         <div className="feature-box">
-                            <i className="feature-box__icon icon-basic-world"></i>
-                            <h3 className="heading-tertiary u-margin-bottom-small">Flask Python</h3>
+                            <i className="feature-box__icon icon-basic-floppydisk"></i>
+                            <h3 className="heading-tertiary u-margin-bottom-small">SQL</h3>
                             <p className="feature-box__text">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             </p>
