@@ -12,4 +12,10 @@
         rgba( $color-primary-dark, 0.5 ) ), 
     url( ../../images/DallasDivide_Colorado.jpg );
     background-size: cover;
+    transform: skewY( -9deg );
+    margin-top: -10rem;
+
+    & > * {
+        transform: skewY( 9deg );
+    }
 }
