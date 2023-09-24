@@ -3,6 +3,7 @@ import React from 'react';
 import Home from './Home';
 // import Grid from './Grid';
 import About from './About';
+import Stack from './Stack';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Home />
       {/* <Grid /> */}
       <About />
+      <Stack />
     </div>
   );
 }
