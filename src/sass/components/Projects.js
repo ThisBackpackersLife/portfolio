@@ -1,6 +1,6 @@
 import React from "react";
 // Import SASS/CSS Styling:
-// import '../main.scss';
+import '../main.scss';
 
 function Projects() {
 
@@ -14,7 +14,11 @@ function Projects() {
 
                 <div class="row">
                     <div class="col-1-of-3">
-                        Col 1 of 3
+                        <div class="card">
+                            <div class="card__side">
+                                TEXT
+                            </div>
+                        </div>
                     </div>
                     <div class="col-1-of-3">
                         Col 1 of 3
