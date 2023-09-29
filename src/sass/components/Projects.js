@@ -5,7 +5,7 @@ import React from "react";
 function Projects() {
 
     return (
-        <section class="section-tours">
+        <section class="section-projects">
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">
                         My software creations
