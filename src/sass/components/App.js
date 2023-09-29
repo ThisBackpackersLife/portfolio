@@ -4,6 +4,7 @@ import Home from './Home';
 // import Grid from './Grid';
 import About from './About';
 import Stack from './Stack';
+import Projects from './Projects';
 
 
 function App() {
@@ -13,8 +14,9 @@ function App() {
       {/* <Grid /> */}
       <About />
       <Stack />
+      <Projects />
     </div>
-  );
+  )
 }
 
 export default App;
