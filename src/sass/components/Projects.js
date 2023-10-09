@@ -5,25 +5,28 @@ import '../main.scss';
 function Projects() {
 
     return (
-        <section class="section-projects">
-                <div class="u-center-text u-margin-bottom-big">
-                    <h2 class="heading-secondary">
+        <section className="section-projects">
+                <div className="u-center-text u-margin-bottom-big">
+                    <h2 className="heading-secondary">
                         My software creations
                     </h2>
                 </div>
 
-                <div class="row">
-                    <div class="col-1-of-3">
-                        <div class="card">
-                            <div class="card__side">
-                                TEXT
+                <div className="row">
+                    <div className="col-1-of-3">
+                        <div className="card">
+                            <div className="card__side card__side--front">
+                                Front
+                            </div>
+                            <div className="card__side card__side--back">
+                                Back
                             </div>
                         </div>
                     </div>
-                    <div class="col-1-of-3">
+                    <div className="col-1-of-3">
                         Col 1 of 3
                     </div>
-                    <div class="col-1-of-3">
+                    <div className="col-1-of-3">
                         Col 1 of 3
                     </div>
                 </div>
