@@ -2,14 +2,21 @@
     perspective: 150rem;
     -moz-perspective: 150rem;
     transform-style: preserve-3d; 
+    position: relative;
+    height: 50rem;
 
     &__side {
         background-color: orangered;
         color: #fff;
         font-size: 2rem;
+
         height: 50rem;
         transition: all .8s;
-        transform-style: preserve-3d;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        backface-visibility: hidden;
 
         &--front {
             background-color: orangered;
