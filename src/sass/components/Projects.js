@@ -18,7 +18,7 @@ function Projects() {
                             <div className="card__side card__side--front">
                                 Front
                             </div>
-                            <div className="card__side card__side--back">
+                            <div className="card__side card__side--back card__side--back-1">
                                 Back
                             </div>
                         </div>
