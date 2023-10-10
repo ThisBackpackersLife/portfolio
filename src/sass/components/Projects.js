@@ -20,7 +20,7 @@ function Projects() {
                                     &nbsp;
                                 </div>
                                 <h4 className="card__heading">
-                                    <span class="card__heading--span card__heading--span--1">Learn-Link</span>
+                                    <span className="card__heading--span card__heading--span--1">Learn-Link</span>
                                 </h4>
                                 <div className="card__details">
                                     Details
