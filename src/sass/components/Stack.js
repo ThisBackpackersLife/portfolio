@@ -6,7 +6,7 @@ function Stack() {
 
     return (
         <section className="section-stack">
-                <h2 className="feature-heading u-center-text">My Stack</h2>
+                <h2 className="feature-heading u-center-text u-margin-top-big">My Stack</h2>
                 <div className="row">
                     <div className="col-1-of-4">
                         <div className="feature-box">
