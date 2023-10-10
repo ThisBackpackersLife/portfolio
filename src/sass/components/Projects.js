@@ -35,13 +35,14 @@ function Projects() {
                                 </div>
                             </div>
                             <div className="card__side card__side--back card__side--back-1">
-                                <div class="card__cta">
-                                        <div class="card__price-box">
+                                <div className="card__cta">
+                                        <div className="card__box">
                                             <a href="#" className="btn btn--white">
-                                                <img src={ gitLogo } alt="Github" className="card__picture--back"/>
+                                                <img src={ gitLogo } alt="Github" className="card__picture card__picture--back"/>
                                             </a>
+                                            <br/>
                                             <a href="#" className="btn btn--white">
-                                                <img src={ ytLogo } alt="Youtube" className="card__picture--back"/>
+                                                <img src={ ytLogo } alt="Youtube" className="card__picture card__picture--back"/>
                                             </a>
                                         </div>
                                     </div>
