@@ -1,4 +1,6 @@
 import React from "react";
+import gitLogo from "../../images/github-mark.png"
+import ytLogo from "../../images/youtube-black.png"
 // Import SASS/CSS Styling:
 import '../main.scss';
 
@@ -33,8 +35,17 @@ function Projects() {
                                 </div>
                             </div>
                             <div className="card__side card__side--back card__side--back-1">
-                                Back
-                            </div>
+                                <div class="card__cta">
+                                        <div class="card__price-box">
+                                            <a href="#" className="btn btn--white">
+                                                <img src={ gitLogo } alt="Github" />
+                                            </a>
+                                            <a href="#" className="btn btn--white">
+                                                <img src={ ytLogo } alt="Youtube" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
                         </div>
                     </div>
                     <div className="col-1-of-3">
