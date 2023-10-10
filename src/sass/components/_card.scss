@@ -59,6 +59,11 @@
         &--3 {
             // background-image: url( /Natours/starter/img/nat-5.jpg );
         }
+
+        &--back {
+            background-size: cover;
+            height: 21rem;
+        }
     }
 
     &__heading {
@@ -105,5 +110,13 @@
                 }
             }
         }
+    }
+
+    // Back Side Styling
+    &__cta {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate( -50%, -50% );
     }
 }

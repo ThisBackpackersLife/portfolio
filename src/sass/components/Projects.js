@@ -38,10 +38,10 @@ function Projects() {
                                 <div class="card__cta">
                                         <div class="card__price-box">
                                             <a href="#" className="btn btn--white">
-                                                <img src={ gitLogo } alt="Github" />
+                                                <img src={ gitLogo } alt="Github" className="card__picture--back"/>
                                             </a>
                                             <a href="#" className="btn btn--white">
-                                                <img src={ ytLogo } alt="Youtube" />
+                                                <img src={ ytLogo } alt="Youtube" className="card__picture--back"/>
                                             </a>
                                         </div>
                                     </div>
