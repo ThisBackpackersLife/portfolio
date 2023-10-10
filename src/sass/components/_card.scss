@@ -57,19 +57,19 @@
         }
 
         &--2 {
-            // background-image: linear-gradient( 
-            //     to right bottom, 
-            //     $color-secondary-light, 
-            //     $color-secondary-dark ), 
-            // url( ../../images/Education.jpg );
+            background-image: linear-gradient( 
+                to right bottom, 
+                $color-primary-light, 
+                $color-primary-dark ), 
+            url( ../../images/Education.jpg );
         }
 
         &--3 {
-            // background-image: linear-gradient( 
-            //     to right bottom, 
-            //     $color-secondary-light, 
-            //     $color-secondary-dark ), 
-            // url( ../../images/Education.jpg );
+            background-image: linear-gradient( 
+                to right bottom, 
+                $color-tertiary-light, 
+                $color-tertiary-dark ), 
+            url( ../../images/Education.jpg );
         }
 
         &--back {

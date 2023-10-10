@@ -53,23 +53,23 @@ function Projects() {
                     <div className="col-1-of-3">
                         <div className="card">
                             <div className="card__side card__side--front">
-                                <div className="card__picture card__picture--1">
+                                <div className="card__picture card__picture--2">
                                     &nbsp;
                                 </div>
                                 <h4 className="card__heading">
-                                    <span className="card__heading--span card__heading--span--1">Learn-Link</span>
+                                    <span className="card__heading--span card__heading--span--2">ExploreMate</span>
                                 </h4>
                                 <div className="card__details">
                                     <ul>
-                                        <li>Learn easy</li>
-                                        <li>For those with disabilities</li>
-                                        <li>Chat with our AI chatbot</li>
-                                        <li>Stay engaged</li>
-                                        <li>Learn together</li>
+                                        <li>Plan all your Travels</li>
+                                        <li>Select destinations around the world</li>
+                                        <li>Keep itineraries in one place</li>
+                                        <li>Plan activities</li>
+                                        <li>EXPLORE!</li>
                                     </ul>
                                 </div>
                             </div>
-                            <div className="card__side card__side--back card__side--back-1">
+                            <div className="card__side card__side--back card__side--back-2">
                                 <div className="card__cta">
                                         <div className="card__box">
                                             <a href="#" className="btn btn--white">
@@ -88,23 +88,23 @@ function Projects() {
                     <div className="col-1-of-3">
                         <div className="card">
                             <div className="card__side card__side--front">
-                                <div className="card__picture card__picture--1">
+                                <div className="card__picture card__picture--3">
                                     &nbsp;
                                 </div>
                                 <h4 className="card__heading">
-                                    <span className="card__heading--span card__heading--span--1">Learn-Link</span>
+                                    <span className="card__heading--span card__heading--span--3">Culinary Critic</span>
                                 </h4>
                                 <div className="card__details">
                                     <ul>
-                                        <li>Learn easy</li>
-                                        <li>For those with disabilities</li>
-                                        <li>Chat with our AI chatbot</li>
-                                        <li>Stay engaged</li>
-                                        <li>Learn together</li>
+                                        <li>Rate Restaurants</li>
+                                        <li>Save places that sound good</li>
+                                        <li>Search restaurant reviews</li>
+                                        <li>Search based on...</li>
+                                        <li>Keyword, Cuisine, Price, Range, & Dietary Restrictions</li>
                                     </ul>
                                 </div>
                             </div>
-                            <div className="card__side card__side--back card__side--back-1">
+                            <div className="card__side card__side--back card__side--back-3">
                                 <div className="card__cta">
                                         <div className="card__box">
                                             <a href="#" className="btn btn--white">
