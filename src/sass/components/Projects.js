@@ -23,7 +23,13 @@ function Projects() {
                                     <span className="card__heading--span card__heading--span--1">Learn-Link</span>
                                 </h4>
                                 <div className="card__details">
-                                    Details
+                                    <ul>
+                                        <li>Learn easy</li>
+                                        <li>For those with disabilities</li>
+                                        <li>Chat with our AI chatbot</li>
+                                        <li>Stay engaged</li>
+                                        <li>Learn together</li>
+                                    </ul>
                                 </div>
                             </div>
                             <div className="card__side card__side--back card__side--back-1">
