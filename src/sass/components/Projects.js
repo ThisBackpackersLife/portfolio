@@ -1,6 +1,9 @@
 import React from "react";
-import gitLogo from "../../images/github-mark.png"
-import ytLogo from "../../images/youtube-black.png"
+// Import Logo's here:
+import git from "../../images/github-mark.png"
+import youtube from "../../images/youtube-black.png"
+import explore from "../../images/explore.jpg"
+import culinary from "../../images/culinary.jpg"
 // Import SASS/CSS Styling:
 import '../main.scss';
 
@@ -27,7 +30,7 @@ function Projects() {
                                 <div className="card__details">
                                     <ul>
                                         <li>Learn easy</li>
-                                        <li>For those with disabilities</li>
+                                        <li>With disabilities</li>
                                         <li>Chat with our AI chatbot</li>
                                         <li>Stay engaged</li>
                                         <li>Learn together</li>
@@ -38,11 +41,11 @@ function Projects() {
                                 <div className="card__cta">
                                         <div className="card__box">
                                             <a href="#" className="btn btn--white">
-                                                <img src={ gitLogo } alt="Github" className="card__picture card__picture--back"/>
+                                                <img src={ git } alt="Github" className="card__picture card__picture--back"/>
                                             </a>
                                             <br/>
                                             <a href="#" className="btn btn--white">
-                                                <img src={ ytLogo } alt="Youtube" className="card__picture card__picture--back"/>
+                                                <img src={ youtube } alt="Youtube" className="card__picture card__picture--back"/>
                                             </a>
                                         </div>
                                     </div>
@@ -73,11 +76,11 @@ function Projects() {
                                 <div className="card__cta">
                                         <div className="card__box">
                                             <a href="#" className="btn btn--white">
-                                                <img src={ gitLogo } alt="Github" className="card__picture card__picture--back"/>
+                                                <img src={ git } alt="Github" className="card__picture card__picture--back"/>
                                             </a>
                                             <br/>
                                             <a href="#" className="btn btn--white">
-                                                <img src={ ytLogo } alt="Youtube" className="card__picture card__picture--back"/>
+                                                <img src={ youtube } alt="Youtube" className="card__picture card__picture--back"/>
                                             </a>
                                         </div>
                                     </div>
@@ -108,11 +111,11 @@ function Projects() {
                                 <div className="card__cta">
                                         <div className="card__box">
                                             <a href="#" className="btn btn--white">
-                                                <img src={ gitLogo } alt="Github" className="card__picture card__picture--back"/>
+                                                <img src={ git } alt="Github" className="card__picture card__picture--back"/>
                                             </a>
                                             <br/>
                                             <a href="#" className="btn btn--white">
-                                                <img src={ ytLogo } alt="Youtube" className="card__picture card__picture--back"/>
+                                                <img src={ youtube } alt="Youtube" className="card__picture card__picture--back"/>
                                             </a>
                                         </div>
                                     </div>

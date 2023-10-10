@@ -44,7 +44,7 @@
     &__picture {
         background-size: cover;
         height: 23rem;
-        background-blend-mode: hue;
+        background-blend-mode: overlay;
         -webkit-clip-path: polygon( 0 0, 100% 0, 100% 85%, 0 100% );
         clip-path: polygon( 0 0, 100% 0, 100% 85%, 0 100% );
 
@@ -61,7 +61,7 @@
                 to right bottom, 
                 $color-primary-light, 
                 $color-primary-dark ), 
-            url( ../../images/Education.jpg );
+            url( ../../images/explore.jpg );
         }
 
         &--3 {
@@ -69,7 +69,7 @@
                 to right bottom, 
                 $color-tertiary-light, 
                 $color-tertiary-dark ), 
-            url( ../../images/Education.jpg );
+            url( ../../images/culinary.jpg );
         }
 
         &--back {
