@@ -19,9 +19,9 @@ function Projects() {
                                 <div className="card__picture card__picture--1">
                                     &nbsp;
                                 </div>
-                                <div className="card__heading">
-                                    Heading
-                                </div>
+                                <h4 className="card__heading">
+                                    Learn-Link
+                                </h4>
                                 <div className="card__details">
                                     Details
                                 </div>
