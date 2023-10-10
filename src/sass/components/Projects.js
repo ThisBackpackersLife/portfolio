@@ -41,11 +41,11 @@ function Projects() {
                                 <div className="card__cta">
                                         <div className="card__box">
                                             <a href="#" className="btn btn--white">
-                                                <img src={ git } alt="Github" className="card__picture card__picture--back"/>
+                                                <img src={ git } alt="Github" className="card__picture card__picture--back" />
                                             </a>
                                             <br/>
                                             <a href="#" className="btn btn--white">
-                                                <img src={ youtube } alt="Youtube" className="card__picture card__picture--back"/>
+                                                <img src={ youtube } alt="Youtube" className="card__picture card__picture--back" />
                                             </a>
                                         </div>
                                     </div>
@@ -76,11 +76,11 @@ function Projects() {
                                 <div className="card__cta">
                                         <div className="card__box">
                                             <a href="#" className="btn btn--white">
-                                                <img src={ git } alt="Github" className="card__picture card__picture--back"/>
+                                                <img src={ git } alt="Github" className="card__picture card__picture--back" />
                                             </a>
                                             <br/>
                                             <a href="#" className="btn btn--white">
-                                                <img src={ youtube } alt="Youtube" className="card__picture card__picture--back"/>
+                                                <img src={ youtube } alt="Youtube" className="card__picture card__picture--back" />
                                             </a>
                                         </div>
                                     </div>
@@ -111,17 +111,23 @@ function Projects() {
                                 <div className="card__cta">
                                         <div className="card__box">
                                             <a href="#" className="btn btn--white">
-                                                <img src={ git } alt="Github" className="card__picture card__picture--back"/>
+                                                <img src={ git } alt="Github" className="card__picture card__picture--back" />
                                             </a>
                                             <br/>
                                             <a href="#" className="btn btn--white">
-                                                <img src={ youtube } alt="Youtube" className="card__picture card__picture--back"/>
+                                                <img src={ youtube } alt="Youtube" className="card__picture card__picture--back" />
                                             </a>
                                         </div>
                                     </div>
                                 </div>
                         </div>
                     </div>
+                </div>
+
+                <div class="u-center-text">
+                    <a href="#" class="btn btn--orange">
+                        <img src={ git } alt="Github" />
+                    </a>
                 </div>
             </section>
     )
