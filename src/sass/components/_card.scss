@@ -7,9 +7,6 @@
     height: 50rem;
 
     &__side {
-        color: #fff;
-        font-size: 2rem;
-
         height: 50rem;
         transition: all .8s ease;
         position: absolute;
@@ -62,5 +59,12 @@
         &--3 {
             // background-image: url( /Natours/starter/img/nat-5.jpg );
         }
+    }
+
+    &__heading {
+        font-size: 2.8rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: $color-white;
     }
 }
