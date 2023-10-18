@@ -2,8 +2,7 @@ import React from "react";
 // Import Logo's here:
 import git from "../../images/github-mark.png"
 import youtube from "../../images/youtube-black.png"
-import explore from "../../images/explore.jpg"
-import culinary from "../../images/culinary.jpg"
+
 // Import SASS/CSS Styling:
 import '../main.scss';
 
