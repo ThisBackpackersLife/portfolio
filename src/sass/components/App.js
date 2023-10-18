@@ -5,6 +5,7 @@ import Home from './Home';
 import About from './About';
 import Stack from './Stack';
 import Projects from './Projects';
+import Reviews from './Reviews';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Stack />
       <Projects />
+      <Reviews />
     </div>
   )
 }
