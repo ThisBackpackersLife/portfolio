@@ -1,4 +1,6 @@
 import React from "react";
+// Import pictures here
+import nathImg from "../../images/Nath.jpg";
 
 function Reviews() {
 
@@ -10,10 +12,10 @@ function Reviews() {
             <div class="row">
                 <div class="review">
                     <figure className="review__shape">
-
+                        <img src={ nathImg } alt="Nathalia" className="review__img" />
                     </figure>
                     <div className="review__text">
-                        <h3 className="heading-tertiary u-margin-bottom-small">Sterling Barton: Full-Stack Software Engineer</h3>
+                        <h3 className="heading-tertiary u-margin-bottom-small">Nathalia Andrade: UX/UI Designer 🎨✨</h3>
                         <p className="paragraph">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate exercitationem, asperiores dolorum nisi fuga facilis sint voluptates eos porro, reiciendis libero incidunt corrupti voluptas aliquam! Voluptates similique ut error! Quas cupiditate exercitationem, asperiores dolorum nisi fuga facilis sint voluptates eos porro, reiciendis libero incidunt corrupti voluptas aliquam! Voluptates similique ut error.
                         </p>
