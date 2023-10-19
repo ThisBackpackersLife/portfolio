@@ -13,7 +13,7 @@ function Reviews() {
                 <div class="review">
                     <figure className="review__shape">
                         <img src={ nathImg } alt="Nathalia" className="review__img" />
-                        <figcaption className="story__caption">Nathalia Andrade</figcaption>
+                        <figcaption className="review__caption">Nathalia Andrade</figcaption>
                     </figure>
                     <div className="review__text">
                         <h3 className="heading-tertiary u-margin-bottom-small">Nathalia Andrade: UX/UI Designer 🎨✨</h3>
