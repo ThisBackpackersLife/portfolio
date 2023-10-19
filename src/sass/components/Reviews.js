@@ -3,21 +3,26 @@ import React from "react";
 import nathImg from "../../images/Nath.jpg";
 import sterlingImg from "../../images/Sterling.jpg";
 import macoImg from "../../images/Maco.jpg";
+import waveMp4 from "../../images/Waves.mp4";
+import waveWebm from "../../images/Waves.webm"
 
 function Reviews() {
 
     return(
         <section className="section-reviews">
-            <div class="bg-video">
-                <video src="" class="bg-video__content"></video>
+            <div className="bg-video">
+                <video className="bg-video__content">
+                    <source src={ waveMp4 } type="video/mp4" />
+                    <source src={ waveWebm } type="video/webm" />
+                </video>
             </div>
 
             <div className="u-center-text u-margin-bottom-big">
                 <h2 className="feature-heading u-center-text u-margin-top-big">Reviews</h2>
             </div>
 
-            <div class="row">
-                <div class="review">
+            <div className="row">
+                <div className="review">
                     <figure className="review__shape">
                         <img src={ sterlingImg } alt="Sterling" className="review__img" />
                         <figcaption className="review__caption">Sterling Barton</figcaption>
@@ -31,8 +36,8 @@ function Reviews() {
                 </div>
             </div>
 
-            <div class="row">
-                <div class="review">
+            <div className="row">
+                <div className="review">
                     <figure className="review__shape">
                         <img src={ nathImg } alt="Nathalia" className="review__img" />
                         <figcaption className="review__caption">Nathalia Andrade</figcaption>
@@ -46,8 +51,8 @@ function Reviews() {
                 </div>
             </div>
 
-            <div class="row">
-                <div class="review">
+            <div className="row">
+                <div className="review">
                     <figure className="review__shape">
                         <img src={ macoImg } alt="Maco" className="review__img" />
                         <figcaption className="review__caption">Macolister Bispo</figcaption>
