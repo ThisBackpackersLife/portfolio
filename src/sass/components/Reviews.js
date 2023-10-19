@@ -8,6 +8,10 @@ function Reviews() {
 
     return(
         <section className="section-reviews">
+            <div class="bg-video">
+                <video src="" class="bg-video__content"></video>
+            </div>
+
             <div className="u-center-text u-margin-bottom-big">
                 <h2 className="feature-heading u-center-text u-margin-top-big">Reviews</h2>
             </div>
