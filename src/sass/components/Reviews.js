@@ -11,9 +11,10 @@ function Reviews() {
     return(
         <section className="section-reviews">
             <div className="bg-video">
-                <video className="bg-video__content">
+                <video className="bg-video__content" autoPlay muted loop playsInline>
                     <source src={ waveMp4 } type="video/mp4" />
                     <source src={ waveWebm } type="video/webm" />
+                    Your browser is not supported!
                 </video>
             </div>
 
