@@ -6,6 +6,7 @@ import About from './About';
 import Stack from './Stack';
 import Projects from './Projects';
 import Reviews from './Reviews';
+import Contact from './Contact';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Stack />
       <Projects />
       <Reviews />
+      <Contact />
     </div>
   )
 }
