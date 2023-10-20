@@ -7,7 +7,9 @@ function Contact() {
             <div className="row">
                 <div className="contact">
                         <div className="contact__form">
-                            
+                            <form action="#" className="form">
+                                
+                            </form>
                         </div>
                 </div>
             </div>
