@@ -6,7 +6,9 @@ function Contact() {
         <section className="section-contact">
             <div className="row">
                 <div className="contact">
-                        
+                        <div className="contact__form">
+                            
+                        </div>
                 </div>
             </div>
         </section>
