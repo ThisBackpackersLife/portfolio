@@ -8,7 +8,7 @@ function Contact() {
                 <div className="contact">
                         <div className="contact__form">
                             <form action="#" className="form">
-                                <div className="u-center-text u-margin-bottom-big">
+                                <div className="u-margin-bottom-medium">
                                     <h2 className="heading-secondary">
                                         Contact Nicholas
                                     </h2>
