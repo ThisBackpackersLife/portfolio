@@ -5,7 +5,7 @@ function Contact() {
     return(
         <section className="section-contact">
             <div className="row">
-                <div className="book">
+                <div className="contact">
                         
                 </div>
             </div>
