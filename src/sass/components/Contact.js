@@ -14,7 +14,7 @@ function Contact() {
                                 </div>
 
                                 <div class="form__group">
-                                    <input type="text" className="form__input" placeholder="Email" id="email" required /> 
+                                    <input type="email" className="form__input" placeholder="Email" id="email" required /> 
                                     <label for="email" className="form__label">Email</label>
                                 </div>
                             </form>
