@@ -16,7 +16,7 @@
         width: 90%;
         display: block;
 
-        &__input:focus {
+        &:focus {
             outline: none;
             box-shadow: 0 1rem 2rem rgba( $color-black, .1 );
             border-bottom: 3px solid $color-primary;
