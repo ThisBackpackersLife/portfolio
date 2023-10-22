@@ -33,6 +33,11 @@ function Contact() {
                                         <input type="radio" class="form__radio-input" id="opp" />
                                         <label for="opp" class="form__radio-label">Opportunity</label>
                                     </div>
+
+                                    <div class="form__radio-group">
+                                        <input type="radio" class="form__radio-input" id="inq" />
+                                        <label for="inq" class="form__radio-label">Inquiry</label>
+                                    </div>
                                 </div>
                             </form>
                         </div>
