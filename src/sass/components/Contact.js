@@ -8,7 +8,7 @@ function Contact() {
                 <div className="contact">
                         <div className="contact__form">
                             <form action="#" className="form">
-                                <div className="u-margin-bottom-medium">
+                                <div className="u-margin-bottom-small">
                                     <h2 className="heading-secondary">
                                         Contact Nicholas
                                     </h2>
@@ -29,7 +29,7 @@ function Contact() {
                                 </div>
 
                                 <div class="form__group">
-                                    <div class="form__radio-group">
+                                    <div class="form__radio-group u-margin-bottom-small">
                                         <input type="radio" class="form__radio-input" id="opp" name="reason" />
                                         <label for="opp" class="form__radio-label">
                                             <span class="form__radio-btn"></span>
@@ -47,7 +47,7 @@ function Contact() {
                                 </div>
 
                                 <div class="form__group">
-                                    <button class="btn btn--orange">Submit &rarr;</button>
+                                    <button class="btn btn--orange u-margin-bottom-small u-margin-left-md">Submit &rarr;</button>
                                 </div>
                             </form>
                         </div>
