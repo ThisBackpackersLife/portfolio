@@ -30,12 +30,12 @@ function Contact() {
 
                                 <div class="form__group">
                                     <div class="form__radio-group">
-                                        <input type="radio" class="form__radio-input" id="opp" />
+                                        <input type="radio" class="form__radio-input" id="opp" name="reason" />
                                         <label for="opp" class="form__radio-label">Opportunity</label>
                                     </div>
 
                                     <div class="form__radio-group">
-                                        <input type="radio" class="form__radio-input" id="inq" />
+                                        <input type="radio" class="form__radio-input" id="inq" name="reason" />
                                         <label for="inq" class="form__radio-label">Inquiry</label>
                                     </div>
                                 </div>
