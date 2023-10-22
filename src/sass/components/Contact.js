@@ -27,6 +27,13 @@ function Contact() {
                                 <div class="form__group">
                                     <textarea name="message" id="message" cols="10" rows="7" placeholder="Would you like to connect? Add your message here!" class="form__input" name="message"></textarea>
                                 </div>
+
+                                <div class="form__group">
+                                    <div class="form__radio-group">
+                                        <input type="radio" class="form__radio-input" id="opp" />
+                                        <label for="opp" class="form__radio-label">Opportunity</label>
+                                    </div>
+                                </div>
                             </form>
                         </div>
                 </div>
