@@ -25,7 +25,7 @@ function Contact() {
                                 </div>
 
                                 <div class="form__group">
-                                    <textarea name="message" id="message" cols="10" rows="7" placeholder="Would you like to connect? Add your message here!" class="form__input" name="message"></textarea>
+                                    <textarea className="form__input" cols="10" rows="7" placeholder="Would you like to connect? Add your message here!" id="message" name="message" />
                                 </div>
 
                                 <div class="form__group">
