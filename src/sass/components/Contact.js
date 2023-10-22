@@ -45,6 +45,10 @@ function Contact() {
                                         </label>
                                     </div>
                                 </div>
+
+                                <div class="form__group">
+                                    <button class="btn btn--orange">Submit &rarr;</button>
+                                </div>
                             </form>
                         </div>
                 </div>
