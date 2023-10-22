@@ -56,7 +56,7 @@
         font-size: $default-font-size;
         cursor: pointer;
         position: relative;
-        padding-left: 4rem;
+        padding-left: 4.5rem;
     }
 
     &__radio-btn {
@@ -70,7 +70,16 @@
         top: 0;
 
         &::after {
-
+            content: "";
+            display: block;
+            height: 1.3rem;
+            width: 1.3rem;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate( -50%, -50% );
+            background-color: $color-primary;
         }
     }
 }
