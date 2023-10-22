@@ -31,12 +31,18 @@ function Contact() {
                                 <div class="form__group">
                                     <div class="form__radio-group">
                                         <input type="radio" class="form__radio-input" id="opp" name="reason" />
-                                        <label for="opp" class="form__radio-label">Opportunity</label>
+                                        <label for="opp" class="form__radio-label">
+                                            <span class="form__radio-btn"></span>
+                                            Opportunity
+                                        </label>
                                     </div>
 
                                     <div class="form__radio-group">
                                         <input type="radio" class="form__radio-input" id="inq" name="reason" />
-                                        <label for="inq" class="form__radio-label">Inquiry</label>
+                                        <label for="inq" class="form__radio-label">
+                                            <span class="form__radio-btn"></span>
+                                            Inquiry                                       
+                                        </label>
                                     </div>
                                 </div>
                             </form>
