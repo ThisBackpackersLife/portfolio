@@ -3,7 +3,7 @@ import React from "react";
 import logo from "../../images/NMSE.png";
 import git from "../../images/github-mark.png";
 import gmail from "../../images/gmail.svg";
-import youtube from "../../images/youtube-black.png";
+import linkedin from "../../images/linkedIn.svg";
 
 function Footer() {
 
@@ -32,6 +32,9 @@ function Footer() {
                         </a>
                         <a href="#" className="footer__link--imageParent">
                             <img src={ gmail } alt="Email Nicholas" className="footer__link--image"/>
+                        </a>
+                        <a href="#" className="footer__link--imageParent">
+                            <img src={ linkedin } alt=" Nicholas' LinkedIn" className="footer__link--image"/>
                         </a>
                     </p>
                 </div>
