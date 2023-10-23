@@ -12,7 +12,9 @@ function Footer() {
             <div className="row">
                 <div className="col-1-of-2">
                     <div className="footer__navigation">
-                        
+                    <ul className="footer__list">
+                        <li className="footer__item"><a href="#" className="footer__link">Home</a></li>
+                    </ul>
                     </div>
                 </div>
             </div>
