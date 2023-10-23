@@ -37,7 +37,11 @@
     }
 
     &__link {
-        
+        &:link,
+        &:visited {
+            color: $color-grey-1;
+            text-decoration: none;
+        }
     }
 
     &__link--imageParent {
