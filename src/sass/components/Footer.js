@@ -27,7 +27,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className="col-1-of-2">
-                    <p className="footer__copyright">
+                    <p className="footer__personal-links">
                         <a href="#" className="footer__link--imageParent">
                             <img src={ git } alt="Nicholas' Github" className="footer__link--image"/>
                         </a>
