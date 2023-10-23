@@ -7,7 +7,7 @@ import Stack from './Stack';
 import Projects from './Projects';
 import Reviews from './Reviews';
 import Contact from './Contact';
-
+import Footer from './Footer';
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
       <Projects />
       <Reviews />
       <Contact />
+      <Footer />
     </div>
   )
 }
