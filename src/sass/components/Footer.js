@@ -1,6 +1,8 @@
 import React from "react";
 // Import images here:
 import logo from "../../images/NMSE.png";
+import git from "../../images/github-mark.png";
+import youtube from "../../images/youtube-black.png";
 
 function Footer() {
 
@@ -21,6 +23,13 @@ function Footer() {
                         <li className="footer__item"><a href="#" className="footer__link">Contact</a></li>
                     </ul>
                     </div>
+                </div>
+                <div className="col-1-of-2">
+                    <p className="footer__copyright">
+                        <a href="#" className="footer__link">
+                            <img src={ git } alt="Nicholas' Github" className="footer__link--image"/>
+                        </a>
+                    </p>
                 </div>
             </div>
         </footer>
