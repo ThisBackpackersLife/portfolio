@@ -41,6 +41,8 @@
         &:visited {
             color: $color-grey-1;
             text-decoration: none;
+            text-transform: uppercase;
+            display: inline-block;
         }
     }
 
