@@ -11,6 +11,7 @@ function Footer() {
         <footer className="footer">
             <div className="footer__logo-box">
                 <img src={ logo } alt="Nicholas Logo" className="footer__logo" />
+                <h4 className="footer__heading">Nicholas Martin Software Engineer</h4>
             </div>
             <div className="row">
                 <div className="col-1-of-2">
