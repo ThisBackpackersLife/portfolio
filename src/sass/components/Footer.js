@@ -7,7 +7,14 @@ function Footer() {
     return (
         <footer className="footer">
             <div className="footer__logo-box">
-                <img src={ logo } alt="Nicholas Logo" class="footer__logo" />
+                <img src={ logo } alt="Nicholas Logo" className="footer__logo" />
+            </div>
+            <div className="row">
+                <div className="col-1-of-2">
+                    <div className="footer__navigation">
+                        
+                    </div>
+                </div>
             </div>
         </footer>
     )
