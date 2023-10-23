@@ -40,9 +40,11 @@
         &:link,
         &:visited {
             color: $color-grey-1;
+            background-color: $color-grey-dark-3;
             text-decoration: none;
             text-transform: uppercase;
             display: inline-block;
+            transition: all .2s;
         }
 
         &:hover,
