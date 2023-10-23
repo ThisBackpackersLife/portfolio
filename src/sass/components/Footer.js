@@ -16,7 +16,7 @@ function Footer() {
                         <li className="footer__item"><a href="#" className="footer__link">Home</a></li>
                         <li className="footer__item"><a href="#" className="footer__link">About</a></li>
                         <li className="footer__item"><a href="#" className="footer__link">My Stack</a></li>
-                        
+                        <li className="footer__item"><a href="#" className="footer__link">Projects</a></li>
                     </ul>
                     </div>
                 </div>
