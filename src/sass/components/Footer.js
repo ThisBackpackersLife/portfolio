@@ -2,6 +2,7 @@ import React from "react";
 // Import images here:
 import logo from "../../images/NMSE.png";
 import git from "../../images/github-mark.png";
+import gmail from "../../images/gmail.svg";
 import youtube from "../../images/youtube-black.png";
 
 function Footer() {
@@ -26,8 +27,11 @@ function Footer() {
                 </div>
                 <div className="col-1-of-2">
                     <p className="footer__copyright">
-                        <a href="#" className="footer__link">
+                        <a href="#" className="footer__link--imageParent">
                             <img src={ git } alt="Nicholas' Github" className="footer__link--image"/>
+                        </a>
+                        <a href="#" className="footer__link--imageParent">
+                            <img src={ gmail } alt="Email Nicholas" className="footer__link--image"/>
                         </a>
                     </p>
                 </div>
