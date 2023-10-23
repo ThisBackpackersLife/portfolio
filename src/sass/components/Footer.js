@@ -1,7 +1,7 @@
 import React from "react";
 // Import images here:
 import logo from "../../images/NMSE.png";
-import git from "../../images/github-mark.png";
+import git from "../../images/github.svg";
 import gmail from "../../images/gmail.svg";
 import linkedin from "../../images/linkedIn.svg";
 
