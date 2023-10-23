@@ -28,26 +28,26 @@ function Contact() {
                                     <textarea className="form__input" cols="10" rows="7" placeholder="Would you like to connect? Add your message here!" id="message" name="message" />
                                 </div>
 
-                                <div class="form__group">
-                                    <div class="form__radio-group u-margin-bottom-small">
-                                        <input type="radio" class="form__radio-input" id="opp" name="reason" />
-                                        <label for="opp" class="form__radio-label">
-                                            <span class="form__radio-btn"></span>
+                                <div className="form__group">
+                                    <div className="form__radio-group u-margin-bottom-small">
+                                        <input type="radio" className="form__radio-input" id="opp" name="reason" />
+                                        <label for="opp" className="form__radio-label">
+                                            <span className="form__radio-btn"></span>
                                             Opportunity
                                         </label>
                                     </div>
 
-                                    <div class="form__radio-group">
-                                        <input type="radio" class="form__radio-input" id="inq" name="reason" />
-                                        <label for="inq" class="form__radio-label">
-                                            <span class="form__radio-btn"></span>
+                                    <div className="form__radio-group">
+                                        <input type="radio" className="form__radio-input" id="inq" name="reason" />
+                                        <label for="inq" className="form__radio-label">
+                                            <span className="form__radio-btn"></span>
                                             Inquiry                                       
                                         </label>
                                     </div>
                                 </div>
 
-                                <div class="form__group">
-                                    <button class="btn btn--orange u-margin-bottom-small u-margin-left-md">Submit &rarr;</button>
+                                <div className="form__group">
+                                    <button className="btn btn--orange u-margin-bottom-small u-margin-left-md">Submit &rarr;</button>
                                 </div>
                             </form>
                         </div>

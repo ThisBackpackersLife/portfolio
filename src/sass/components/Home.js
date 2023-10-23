@@ -1,4 +1,5 @@
 import React from "react";
+// Import images here:
 import logo from "../../images/NMSE.png";
 // Import SASS/CSS Styling:
 import '../main.scss';
@@ -8,7 +9,7 @@ function Home() {
     return (
         <header className="header">
             <div className="header__logo-box">
-                <img src={ logo } alt="Logo" className="header__logo" />
+                <img src={ logo } alt="Nicholas Logo" className="header__logo" />
             </div>
             <div className="header__text-box">
                 <h1 className="heading-primary">

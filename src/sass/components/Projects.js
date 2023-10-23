@@ -1,7 +1,7 @@
 import React from "react";
 // Import Logo's here:
-import git from "../../images/github-mark.png"
-import youtube from "../../images/youtube-black.png"
+import git from "../../images/github-mark.png";
+import youtube from "../../images/youtube-black.png";
 
 // Import SASS/CSS Styling:
 import '../main.scss';
