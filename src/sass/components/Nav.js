@@ -3,13 +3,15 @@ import React from "react";
 function Nav() {
     
     return (
-        <div className="navigation">
-            <input type="checkbox" className="navigation__checkbox" id="nav-toggle" />
+        <div className="nav">
+            <input type="checkbox" className="nav__checkbox" id="nav-toggle" />
 
-            <label for="nav-toggle" className="navigation__btn">Menu</label>
+            <label for="nav-toggle" className="nav__btn">Menu</label>
 
-            <div className="navigation__nav">
-                <ul className="navigation__list"></ul>
+            <div className="nav__nav">
+                <ul className="nav__list">
+                    <li className="nav__item"><a href="#" className="nav__link"></a>About</li>
+                </ul>
             </div>
         </div>
     )
