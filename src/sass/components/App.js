@@ -7,10 +7,12 @@ import Projects from './Projects';
 import Reviews from './Reviews';
 import Contact from './Contact';
 import Footer from './Footer';
+import Nav from './Nav';
 
 function App() {
   return (
     <div>
+      <Nav />
       <Home />
       <About />
       <Stack />
