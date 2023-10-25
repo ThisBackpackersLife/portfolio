@@ -6,7 +6,9 @@ function Nav() {
         <div className="nav">
             <input type="checkbox" className="nav__checkbox" id="nav-toggle" />
 
-            <label for="nav-toggle" className="nav__btn">Menu</label>
+            <label for="nav-toggle" className="nav__btn">
+                <span className="nav__icon">&nbsp;</span>
+            </label>
 
             <div className="nav__bg">&nbsp;</div>
 
