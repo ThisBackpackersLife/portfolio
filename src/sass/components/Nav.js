@@ -8,7 +8,7 @@ function Nav() {
 
             <label for="nav-toggle" className="nav__btn">Menu</label>
 
-            <div className="navigation__bg">&nbsp;</div>
+            <div className="nav__bg">&nbsp;</div>
 
             <div className="nav__nav">
                 <ul className="nav__list">
