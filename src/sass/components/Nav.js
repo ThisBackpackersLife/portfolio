@@ -13,6 +13,7 @@ function Nav() {
                     <li className="nav__item"><a href="#" className="nav__link"></a>About</li>
                     <li className="nav__item"><a href="#" className="nav__link"></a>My Stack</li>
                     <li className="nav__item"><a href="#" className="nav__link"></a>Apps</li>
+                    <li className="nav__item"><a href="#" className="nav__link"></a>Reviews</li>
                 </ul>
             </div>
         </div>
