@@ -8,6 +8,8 @@ function Nav() {
 
             <label for="nav-toggle" className="nav__btn">Menu</label>
 
+            <div className="navigation__bg">&nbsp;</div>
+
             <div className="nav__nav">
                 <ul className="nav__list">
                     <li className="nav__item"><a href="#" className="nav__link"></a>About</li>
