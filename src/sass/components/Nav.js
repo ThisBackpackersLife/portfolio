@@ -12,6 +12,7 @@ function Nav() {
                 <ul className="nav__list">
                     <li className="nav__item"><a href="#" className="nav__link"></a>About</li>
                     <li className="nav__item"><a href="#" className="nav__link"></a>My Stack</li>
+                    <li className="nav__item"><a href="#" className="nav__link"></a>Apps</li>
                 </ul>
             </div>
         </div>
