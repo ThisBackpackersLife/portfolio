@@ -74,4 +74,8 @@
             transform: translateX( 1rem );
         }
     }
+
+    &__checkbox:checked ~ &__bg {
+        transform: scale( 80 );
+    }
 }
