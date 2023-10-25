@@ -90,6 +90,7 @@
     // Icon style goes here:
     &__icon {
         position: relative;
+        margin-top: 3.5rem;
 
         &,
         &::before,
@@ -107,7 +108,7 @@
             left: 0;
         } 
 
-        &::before { top: -1rem; }
-        &::after { top: 1rem; }
+        &::before { top: -.8rem; }
+        &::after { top: .8rem; }
     }
 }
