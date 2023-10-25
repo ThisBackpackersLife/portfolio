@@ -12,11 +12,11 @@ function Nav() {
 
             <div className="nav__nav">
                 <ul className="nav__list">
-                    <li className="nav__item"><a href="#" className="nav__link"></a>About</li>
-                    <li className="nav__item"><a href="#" className="nav__link"></a>My Stack</li>
-                    <li className="nav__item"><a href="#" className="nav__link"></a>Apps</li>
-                    <li className="nav__item"><a href="#" className="nav__link"></a>Reviews</li>
-                    <li className="nav__item"><a href="#" className="nav__link"></a>Contact</li>
+                    <li className="nav__item"><a href="#" className="nav__link">About</a></li>
+                    <li className="nav__item"><a href="#" className="nav__link">My Stack</a></li>
+                    <li className="nav__item"><a href="#" className="nav__link">Apps</a></li>
+                    <li className="nav__item"><a href="#" className="nav__link">Reviews</a></li>
+                    <li className="nav__item"><a href="#" className="nav__link">Contact</a></li>
                 </ul>
             </div>
         </div>
