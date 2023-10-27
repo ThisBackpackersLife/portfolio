@@ -47,6 +47,7 @@ function Projects() {
                                                 <img src={ youtube } alt="Youtube" className="card__picture card__picture--back" />
                                             </a>
                                         </div>
+                                        <Popup />
                                     </div>
                                 </div>
                         </div>
@@ -82,6 +83,7 @@ function Projects() {
                                                 <img src={ youtube } alt="Youtube" className="card__picture card__picture--back" />
                                             </a>
                                         </div>
+                                        <Popup />
                                     </div>
                                 </div>
                         </div>
@@ -117,6 +119,7 @@ function Projects() {
                                                 <img src={ youtube } alt="Youtube" className="card__picture card__picture--back" />
                                             </a>
                                         </div>
+                                        <Popup />
                                     </div>
                                 </div>
                         </div>
