@@ -58,7 +58,12 @@ function Stack() {
                             <i className="feature-box__icon icon-basic-floppydisk"></i>
                             <h3 className="heading-tertiary u-margin-bottom-small">SQL</h3>
                             <p className="feature-box__text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            <ul className="feature-box__list">
+                                    <li className="feature-box__list-item">Querying</li>
+                                    <li className="feature-box__list-item">Database Management</li>
+                                    <li className="feature-box__list-item">Performance Optimization</li>
+                                    <li className="feature-box__list-item">Data Modeling & Architecture</li>
+                                </ul>
                             </p>
                         </div>
                     </div>
