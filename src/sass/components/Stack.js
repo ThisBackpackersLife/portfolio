@@ -14,7 +14,10 @@ function Stack() {
                             <h3 className="heading-tertiary u-margin-bottom-small">Flask Python</h3>
                             <p className="feature-box__text">
                                 <ul className="feature-box__list">
-                                    
+                                    <li className="feature-box__list-item">CRUD</li>
+                                    <li className="feature-box__list-item">Authentication</li>
+                                    <li className="feature-box__list-item">Custom/Private Routes</li>
+                                    <li className="feature-box__list-item">RESTful API's & Web Services</li>
                                 </ul>
                             </p>
                         </div>
