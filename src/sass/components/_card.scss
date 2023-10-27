@@ -96,11 +96,14 @@
         }
 
         &--back {
+            display: block;
             background-size: cover;
-            height: 15rem;
+            height: 13rem;
+            width: 17rem;
             margin: 2rem;
+            -webkit-clip-path: none;
+            clip-path: none;
         }
-            
     }
 
     &__heading {
