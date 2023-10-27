@@ -28,7 +28,7 @@ function Stack() {
                             <i className="feature-box__icon icon-basic-gear"></i>
                             <h3 className="heading-tertiary u-margin-bottom-small">React</h3>
                             <p className="feature-box__text">
-                            <ul className="feature-box__list">
+                                <ul className="feature-box__list">
                                     <li className="feature-box__list-item">Redux</li>
                                     <li className="feature-box__list-item">Context</li>
                                     <li className="feature-box__list-item">Custom Hooks</li>
@@ -41,9 +41,14 @@ function Stack() {
                     <div className="col-1-of-4">
                         <div className="feature-box">
                             <i className="feature-box__icon icon-basic-pencil-ruler"></i>
-                            <h3 className="heading-tertiary u-margin-bottom-small">SASS/CSS</h3>
+                            <h3 className="heading-tertiary u-margin-bottom-small">CSS/SASS</h3>
                             <p className="feature-box__text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                <ul className="feature-box__list">
+                                    <li className="feature-box__list-item">BEM</li>
+                                    <li className="feature-box__list-item">7-1 Structure</li>
+                                    <li className="feature-box__list-item">Mixins & Nesting</li>
+                                    <li className="feature-box__list-item">Reusable Components</li>
+                                </ul>
                             </p>
                         </div>
                     </div>
