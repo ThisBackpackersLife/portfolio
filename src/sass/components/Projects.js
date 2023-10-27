@@ -122,8 +122,8 @@ function Projects() {
                     </div>
                 </div>
 
-                <div class="u-center-text u-margin-top-huge">
-                    <a href="#" class="btn btn--orange">
+                <div className="u-center-text u-margin-top-huge">
+                    <a href="#" className="btn btn--orange">
                         <img src={ git } alt="Github" />
                     </a>
                 </div>

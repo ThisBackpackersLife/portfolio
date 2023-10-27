@@ -19,12 +19,12 @@ function Contact() {
                                     <label for="name" className="form__label">Full Name</label>
                                 </div>
 
-                                <div class="form__group">
+                                <div className="form__group">
                                     <input type="email" className="form__input" placeholder="Email Address" id="email" required /> 
                                     <label for="email" className="form__label">Email Address</label>
                                 </div>
 
-                                <div class="form__group">
+                                <div className="form__group">
                                     <textarea className="form__input" cols="10" rows="7" placeholder="Would you like to connect? Add your message here!" id="message" name="message" />
                                 </div>
 

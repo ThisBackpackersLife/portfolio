@@ -36,4 +36,15 @@
         margin-right: 10px;
     }
 
+    &__btn-container {
+        display: flex;
+        justify-content: center; 
+        margin-top: 5px; 
+        margin-bottom: 10px;
+    }
+
+    &__btn {
+        margin-right: 1000px; /* Add spacing between the buttons */
+    }
+
 }
