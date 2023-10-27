@@ -9,8 +9,8 @@ function Popup() {
         <div className="popup">
             <div className="popup__content">
                 <div className="popup__left">
-                    <img src={ education } alt="Edu pic" />
-                    <img src={ culinary } alt="Culinary pic" />
+                    <img src={ education } alt="Edu pic" className="popup__img" />
+                    <img src={ culinary } alt="Culinary pic" className="popup__img" />
                 </div>
                 <div className="popup__right">
                     <h2 className="heading-secondary">Place Holder</h2>
