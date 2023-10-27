@@ -1,5 +1,5 @@
 import React from "react";
-import Popup from "./Popup";
+// import Popup from "./Popup";
 // Import Logo's here:
 import git from "../../images/github-mark.png";
 import youtube from "../../images/youtube-black.png";
@@ -47,7 +47,7 @@ function Projects() {
                                                 <img src={ youtube } alt="Youtube" className="card__picture card__picture--back" />
                                             </a>
                                         </div>
-                                        <Popup />
+                                        {/* <Popup /> */}
                                     </div>
                                 </div>
                         </div>
@@ -83,7 +83,7 @@ function Projects() {
                                                 <img src={ youtube } alt="Youtube" className="card__picture card__picture--back" />
                                             </a>
                                         </div>
-                                        <Popup />
+                                        {/* <Popup /> */}
                                     </div>
                                 </div>
                         </div>
@@ -119,7 +119,7 @@ function Projects() {
                                                 <img src={ youtube } alt="Youtube" className="card__picture card__picture--back" />
                                             </a>
                                         </div>
-                                        <Popup />
+                                        {/* <Popup /> */}
                                     </div>
                                 </div>
                         </div>

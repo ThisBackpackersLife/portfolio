@@ -8,6 +8,7 @@ import Reviews from './Reviews';
 import Contact from './Contact';
 import Footer from './Footer';
 import Nav from './Nav';
+import Popup from './Popup';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Reviews />
       <Contact />
       <Footer />
+      <Popup />
     </div>
   )
 }
