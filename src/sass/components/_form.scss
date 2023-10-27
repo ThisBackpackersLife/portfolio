@@ -76,6 +76,7 @@
 
         &::after {
             @include absCenter;
+            
             content: "";
             display: block;
             height: 1rem;

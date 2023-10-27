@@ -21,7 +21,7 @@ function App() {
       <Reviews />
       <Contact />
       <Footer />
-      {/* <Popup /> */}
+      <Popup />
     </div>
   )
 }
