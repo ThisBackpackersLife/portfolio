@@ -12,9 +12,10 @@
 
         width: 75%;
         background-color: $color-white;
-        box-shadow: 0 2rem 4rem rgba( $color-black, .2 );
-        border-radius: 3px;
+        box-shadow: 0 2rem 4rem rgba( $color-black, .1 );
+        border-radius: 5px;
         display: table;
+        overflow: hidden;
     }
 
     &__left {
@@ -34,8 +35,8 @@
     }
 
     &__img {
-        width: 100%;
-        margin-right: 10px;
+        width: 95%;
+        margin: 7px;
     }
 
     &__btn-container {
