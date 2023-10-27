@@ -28,7 +28,12 @@ function Stack() {
                             <i className="feature-box__icon icon-basic-gear"></i>
                             <h3 className="heading-tertiary u-margin-bottom-small">React</h3>
                             <p className="feature-box__text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            <ul className="feature-box__list">
+                                    <li className="feature-box__list-item">Redux</li>
+                                    <li className="feature-box__list-item">Context</li>
+                                    <li className="feature-box__list-item">Custom Hooks</li>
+                                    <li className="feature-box__list-item">Component Architecture</li>
+                                </ul>
                             </p>
                         </div>
                     </div>
