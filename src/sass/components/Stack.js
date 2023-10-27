@@ -11,7 +11,7 @@ function Stack() {
                     <div className="col-1-of-4">
                         <div className="feature-box">
                             <i className="feature-box__icon icon-basic-archive-full"></i>
-                            <h3 className="heading-tertiary u-margin-bottom-small">Flask Python</h3>
+                            <h3 className="heading-tertiary-2 u-margin-bottom-small">Flask Python</h3>
                             <p className="feature-box__text">
                                 <ul className="feature-box__list">
                                     <li className="feature-box__list-item">CRUD</li>
@@ -26,7 +26,7 @@ function Stack() {
                     <div className="col-1-of-4">
                         <div className="feature-box">
                             <i className="feature-box__icon icon-basic-gear"></i>
-                            <h3 className="heading-tertiary u-margin-bottom-small">React</h3>
+                            <h3 className="heading-tertiary-2 u-margin-bottom-small">React</h3>
                             <p className="feature-box__text">
                                 <ul className="feature-box__list">
                                     <li className="feature-box__list-item">Redux</li>
@@ -41,7 +41,7 @@ function Stack() {
                     <div className="col-1-of-4">
                         <div className="feature-box">
                             <i className="feature-box__icon icon-basic-pencil-ruler"></i>
-                            <h3 className="heading-tertiary u-margin-bottom-small">CSS/SASS</h3>
+                            <h3 className="heading-tertiary-2 u-margin-bottom-small">CSS/SASS</h3>
                             <p className="feature-box__text">
                                 <ul className="feature-box__list">
                                     <li className="feature-box__list-item">BEM</li>
@@ -56,7 +56,7 @@ function Stack() {
                     <div className="col-1-of-4">
                         <div className="feature-box">
                             <i className="feature-box__icon icon-basic-floppydisk"></i>
-                            <h3 className="heading-tertiary u-margin-bottom-small">SQL</h3>
+                            <h3 className="heading-tertiary-2 u-margin-bottom-small">SQL</h3>
                             <p className="feature-box__text">
                             <ul className="feature-box__list">
                                     <li className="feature-box__list-item">Querying</li>
