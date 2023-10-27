@@ -38,11 +38,11 @@ function Projects() {
                             <div className="card__side card__side--back card__side--back-1">
                                 <div className="card__cta">
                                         <div className="card__box">
-                                            <a href="#" className="btn btn--white">
+                                            <a href="#" className="btn btn--white a1">
                                                 <img src={ git } alt="Github" className="card__picture card__picture--back" />
                                             </a>
                                             <br/>
-                                            <a href="#" className="btn btn--white">
+                                            <a href="#" className="btn btn--white a2">
                                                 <img src={ youtube } alt="Youtube" className="card__picture card__picture--back" />
                                             </a>
                                         </div>
