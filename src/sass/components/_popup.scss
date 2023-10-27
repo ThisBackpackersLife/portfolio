@@ -26,8 +26,13 @@
         float: left;
     }
 
+    &__img-container{
+        display: flex;
+        flex-direction: column;
+    }
+
     &__img {
-        display: block;
-        width: 100%;
+        width: 80%;
+        margin-right: 10px;
     }
 }

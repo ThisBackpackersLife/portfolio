@@ -11,8 +11,8 @@ function Popup() {
                 <div className="popup__left">
                     <div className="popup__img-container">
                         <img src={ education } alt="Edu pic" className="popup__img" />
-                        <img src={ culinary } alt="Culinary pic" className="popup__img" />
                         <img src={ explore } alt="Explore pic" className="popup__img" />
+                        <img src={ culinary } alt="Culinary pic" className="popup__img" />
                     </div>
                 </div>
                 <div className="popup__right">
