@@ -8,8 +8,7 @@ function Popup1() {
             <div className="popup__content">
                 <div className="popup__left">
                     <div className="popup__img-container">
-                        <img src={ education } alt="Education pic" className="popup__img popup__img-1" />
-                        
+                        <img src={ education } alt="Education pic" className="popup__img popup__img-1" />                       
                     </div>
                 </div>
                 <div className="popup__right">
