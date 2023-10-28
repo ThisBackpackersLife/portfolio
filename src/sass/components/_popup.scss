@@ -25,7 +25,7 @@
             right: 2.5rem;
             font-size: 3rem;
             display: inline-block;
-            // line-height: 1;
+            // line-height: 1; // moves x to top corner when window is smaller
         }
         
         &:hover {
