@@ -19,11 +19,13 @@
         &:link,
         &:visited {
             color: $color-grey-dark;
+            text-decoration: none;
             position: absolute;
             top: 2.5rem;
             right: 2.5rem;
             font-size: 3rem;
             display: inline-block;
+            // line-height: 1;
         }
         
         &:hover {
