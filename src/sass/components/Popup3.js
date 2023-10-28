@@ -4,7 +4,9 @@ import React from "react";
 function Popup3() {
     return (
         <div className="popup" id="popup3">
+            <div className="popup__content">
 
+            </div>
         </div>
     )
 }
