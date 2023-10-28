@@ -5,7 +5,9 @@ function Popup3() {
     return (
         <div className="popup" id="popup3">
             <div className="popup__content">
-
+                <div className="popup__left">
+                    
+                </div>
             </div>
         </div>
     )
