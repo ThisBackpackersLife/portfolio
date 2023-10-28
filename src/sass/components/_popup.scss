@@ -10,30 +10,6 @@
     visibility: hidden;
     transition: all .3s;
 
-    &:target {
-        opacity: 1;
-        visibility: visible;
-    }
-
-    &__close {
-        &:link,
-        &:visited {
-            color: $color-grey-dark;
-            text-decoration: none;
-            position: absolute;
-            top: 2.5rem;
-            right: 2.5rem;
-            font-size: 3rem;
-            display: inline-block;
-            // line-height: 1; // moves x to top corner when window is smaller
-        }
-        
-        &:hover {
-            color: $color-primary;
-        }
-    }
-
-
     &__content {
         @include absCenter;
 
@@ -86,4 +62,26 @@
         margin-bottom: 10px;
     }
 
+    &:target {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    &__close {
+        &:link,
+        &:visited {
+            color: $color-grey-dark;
+            text-decoration: none;
+            position: absolute;
+            top: 2.5rem;
+            right: 2.5rem;
+            font-size: 3rem;
+            display: inline-block;
+            // line-height: 1; // moves x to top corner when window is smaller
+        }
+        
+        &:hover {
+            color: $color-primary;
+        }
+    }
 }
