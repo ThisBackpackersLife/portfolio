@@ -2,7 +2,7 @@ import React from "react";
 // Import images here:
 import education from "../../images/Education.jpg";
 
-function Popup() {
+function Popup1() {
     return (
         <div className="popup" id="popup">
             <div className="popup__content">
@@ -29,4 +29,4 @@ function Popup() {
     )
 }
 
-export default Popup;
+export default Popup1;
