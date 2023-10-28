@@ -8,7 +8,7 @@ import '../main.scss';
 function Projects() {
 
     return (
-        <section className="section-projects">
+        <section className="section-projects" id="section-projects">
                 <div className="u-center-text u-margin-bottom-big">
                     <h2 className="heading-secondary">
                         My software creations
