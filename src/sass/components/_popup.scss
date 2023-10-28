@@ -19,6 +19,11 @@
         &:link,
         &:visited {
             color: $color-grey-dark;
+            position: absolute;
+            top: 2.5rem;
+            right: 2.5rem;
+            font-size: 3rem;
+            display: inline-block;
         }
     }
 
