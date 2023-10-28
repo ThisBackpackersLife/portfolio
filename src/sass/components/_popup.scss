@@ -25,7 +25,12 @@
             font-size: 3rem;
             display: inline-block;
         }
+        
+        &:hover {
+            color: $color-primary;
+        }
     }
+
 
     &__content {
         @include absCenter;
