@@ -11,7 +11,16 @@ function Popup2() {
                         <img src={ explore } alt="Explore pic" className="popup__img popup__img-2" />
                     </div>
                     <div className="popup__vid-container">
-                        
+                    <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0 }}>
+                            <iframe
+                                src="https://www.loom.com/embed/dec7cad90060412497d1d6cda0470642?sid=911ca220-ddfc-4656-b16e-1301999e2aad"
+                                frameBorder="0"
+                                webkitallowfullscreen="true"
+                                mozallowfullscreen="true"
+                                allowFullScreen="true"
+                                style={{ position: 'absolute', top: 17, left: 21, width: '100%', height: '100%' }}
+                            ></iframe>
+                        </div>
                     </div>
                 </div>
                 <div className="popup__right">
