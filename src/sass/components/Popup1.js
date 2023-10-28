@@ -11,7 +11,14 @@ function Popup1() {
                         <img src={ education } alt="Education pic" className="popup__img popup__img-1" />                       
                     </div>
                     <div className="popup__vid-container">
-
+                        <iframe 
+                            src="https://www.loom.com/embed/126dbef4aad145ab9bf17190665874ac?sid=99a86403-f7ac-416a-9cf7-7f6d14f85ce8" 
+                            frameBorder="0"
+                            webkitallowfullscreen={ true }
+                            mozallowfullscreen={ true }
+                            allowFullScreen={ true }
+                            style={{ position: 'absolute', top: 17, left: 21, width: '100%', height: '100%' }}>
+                        </iframe>
                     </div>
                 </div>
                 <div className="popup__right">
