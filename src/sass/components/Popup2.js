@@ -2,7 +2,7 @@ import React from "react";
 
 function Popup2() {
     return(
-        <div className="popup">
+        <div className="popup" id="popup2">
             <div className="popup__content">
 
             </div>

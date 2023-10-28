@@ -77,7 +77,7 @@ function Projects() {
                                                 <img src={ git } alt="Github" className="card__picture card__picture--back" />
                                             </a>
                                             <br/>
-                                            <a href="#popup" className="btn btn--white">
+                                            <a href="#popup2" className="btn btn--white">
                                                 <img src={ youtube } alt="Youtube" className="card__picture card__picture--back" />
                                             </a>
                                         </div>
