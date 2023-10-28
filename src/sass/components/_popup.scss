@@ -20,7 +20,6 @@
         display: table;
         overflow: hidden;
         opacity: 0;
-        // transform: translate( -50%, -50% ) scale( .25 );
         transition: all .4s .2s;
     }
 
@@ -53,7 +52,6 @@
         position: relative;
         padding-bottom: 56.25%;
         height: 0;
-        
     }
     
     &__vid-container iframe {
