@@ -15,6 +15,13 @@
         visibility: visible;
     }
 
+    &__close {
+        &:link,
+        &:visited {
+            color: $color-grey-dark;
+        }
+    }
+
     &__content {
         @include absCenter;
 
