@@ -1,6 +1,5 @@
 import React from "react";
 // Import images here:
-import culinary from "../../images/culinary.jpg";
 import education from "../../images/Education.jpg";
 
 function Popup() {
@@ -10,7 +9,7 @@ function Popup() {
                 <div className="popup__left">
                     <div className="popup__img-container">
                         <img src={ education } alt="Education pic" className="popup__img popup__img-1" />
-                        <img src={ culinary } alt="Culinary pic" className="popup__img popup__img-3" />
+                        
                     </div>
                 </div>
                 <div className="popup__right">
