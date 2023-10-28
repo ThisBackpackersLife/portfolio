@@ -8,11 +8,12 @@ function Popup2() {
             <div className="popup__content">
                 <div className="popup__left">
                     <div className="popup__img-container">
-                        <img src={ explore } alt="Explore pic" className="popup__img popup__img-2" />
+                        <img src={ explore } alt="Explore pic" className="popup__img-2" />
                     </div>
                 </div>
                 <div className="popup__right">
-                    
+                    <a href="#section-projects" className="popup__close">&times;</a>
+                    <h2 className="heading-secondary">Get to know ExploreMate!</h2>
                 </div>
             </div>
         </div>
