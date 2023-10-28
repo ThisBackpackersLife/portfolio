@@ -8,7 +8,7 @@ import Reviews from './Reviews';
 import Contact from './Contact';
 import Footer from './Footer';
 import Nav from './Nav';
-import Popup from './Popup';
+import Popup1 from './Popup1';
 import Popup2 from './Popup2';
 import Popup3 from './Popup3';
 
@@ -23,7 +23,7 @@ function App() {
       <Reviews />
       <Contact />
       <Footer />
-      <Popup />
+      <Popup1 />
       <Popup2 />
       <Popup3/>
     </div>
