@@ -20,7 +20,7 @@
         display: table;
         overflow: hidden;
         opacity: 0;
-        transform: translate( -50%, -50% ) scale( .5 );
+        // transform: translate( -50%, -50% ) scale( .25 );
         transition: all .4s .2s;
     }
 
@@ -43,14 +43,14 @@
     }
 
     &__img {
+        display: block;
         width: 95%;
         margin: 7px;
         border-radius: 3px;
         overflow: hidden;
 
         &-2 {
-            margin-top: 19px;
-            overflow: visible;
+            margin-top: 5rem;
         }
     }
 
