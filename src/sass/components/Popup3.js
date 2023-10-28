@@ -11,7 +11,14 @@ function Popup3() {
                         <img src={ culinary } alt="Culinary pic" className="popup__img popup__img-3" />
                     </div>
                     <div className="popup__vid-container">
-                        
+                        <iframe 
+                            src="https://www.loom.com/embed/70ded0f6364042d7b51b997db4ffce80?sid=23ca1979-5520-4a94-a7fc-bd4b8a866dec" 
+                            frameBorder="0"
+                            webkitallowfullscreen={ true }
+                            mozallowfullscreen={ true }
+                            allowFullScreen={ true }
+                            style={{ position: 'absolute', top: 17, left: 21, width: '100%', height: '100%' }}>
+                        </iframe>
                     </div>
                 </div>
                 <div className="popup__right">
