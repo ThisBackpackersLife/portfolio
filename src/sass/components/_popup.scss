@@ -49,6 +49,10 @@
         border-radius: 3px;
         overflow: hidden;
 
+        &-1 {
+            margin-top: 4rem;
+        }
+
         &-2 {
             margin-top: 5rem;
         }
@@ -71,7 +75,7 @@
 
     &:target &__content {
         opacity: 1;
-        transform: translate( -50%, -50% ) scale( .8 );
+        transform: translate( -50%, -50% ) scale( 1 );
     }
 
     &__close {
