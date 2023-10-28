@@ -10,6 +10,7 @@ function Popup1() {
                     <div className="popup__img-container">
                         <img src={ education } alt="Education pic" className="popup__img popup__img-1" />                       
                     </div>
+                    <div className="popup__vid-container"></div>
                 </div>
                 <div className="popup__right">
                     <a href="#section-projects" className="popup__close">&times;</a>
