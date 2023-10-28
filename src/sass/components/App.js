@@ -9,6 +9,7 @@ import Contact from './Contact';
 import Footer from './Footer';
 import Nav from './Nav';
 import Popup from './Popup';
+import Popup2 from './Popup2';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Contact />
       <Footer />
       <Popup />
+      <Popup2 />
     </div>
   )
 }
