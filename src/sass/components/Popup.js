@@ -16,7 +16,7 @@ function Popup() {
                     </div>
                 </div>
                 <div className="popup__right">
-                    <a href="section-projects" className="popup__close">&times;</a>
+                    <a href="#section-projects" className="popup__close">&times;</a>
                     <h2 className="heading-secondary">Get to know my projects!</h2>
                     <h3 className="heading-tertiary">Learn-Link</h3>
                     <p className="popup__text">
