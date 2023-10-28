@@ -101,6 +101,7 @@
             height: 13rem;
             width: 17rem;
             margin: 2rem;
+            border-radius: 30%;
             -webkit-clip-path: none;
             clip-path: none;
         }
@@ -170,9 +171,6 @@
 
     // Back Side Styling
     &__cta {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate( -50%, -50% );
+        @include absCenter;
     }
 }

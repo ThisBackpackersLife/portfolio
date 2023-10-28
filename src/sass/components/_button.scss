@@ -50,6 +50,24 @@
                 background-color: $color-primary;
             }
         }
+
+        &--green {
+            background-color: $color-secondary-dark;
+            color: $color-white;
+            
+            &::after {
+                background-color: $color-secondary-dark;
+            }
+        }
+
+        &--blue {
+            background-color: $color-tertiary-dark;
+            color: $color-white;
+            
+            &::after {
+                background-color: $color-tertiary-dark;
+            }
+        }
     
         &::after {
             content: "";

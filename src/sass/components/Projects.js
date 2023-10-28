@@ -2,14 +2,13 @@ import React from "react";
 // Import Logo's here:
 import git from "../../images/github-mark.png";
 import youtube from "../../images/youtube-black.png";
-
 // Import SASS/CSS Styling:
 import '../main.scss';
 
 function Projects() {
 
     return (
-        <section className="section-projects">
+        <section className="section-projects" id="section-projects">
                 <div className="u-center-text u-margin-bottom-big">
                     <h2 className="heading-secondary">
                         My software creations
@@ -39,11 +38,11 @@ function Projects() {
                             <div className="card__side card__side--back card__side--back-1">
                                 <div className="card__cta">
                                         <div className="card__box">
-                                            <a href="#" className="btn btn--white">
+                                            <a href="#" className="btn btn--white a1">
                                                 <img src={ git } alt="Github" className="card__picture card__picture--back" />
                                             </a>
                                             <br/>
-                                            <a href="#" className="btn btn--white">
+                                            <a href="#popup" className="btn btn--white a2">
                                                 <img src={ youtube } alt="Youtube" className="card__picture card__picture--back" />
                                             </a>
                                         </div>
@@ -78,7 +77,7 @@ function Projects() {
                                                 <img src={ git } alt="Github" className="card__picture card__picture--back" />
                                             </a>
                                             <br/>
-                                            <a href="#" className="btn btn--white">
+                                            <a href="#popup2" className="btn btn--white">
                                                 <img src={ youtube } alt="Youtube" className="card__picture card__picture--back" />
                                             </a>
                                         </div>
@@ -113,7 +112,7 @@ function Projects() {
                                                 <img src={ git } alt="Github" className="card__picture card__picture--back" />
                                             </a>
                                             <br/>
-                                            <a href="#" className="btn btn--white">
+                                            <a href="#popup3" className="btn btn--white">
                                                 <img src={ youtube } alt="Youtube" className="card__picture card__picture--back" />
                                             </a>
                                         </div>
@@ -123,8 +122,8 @@ function Projects() {
                     </div>
                 </div>
 
-                <div class="u-center-text u-margin-top-huge">
-                    <a href="#" class="btn btn--orange">
+                <div className="u-center-text u-margin-top-huge">
+                    <a href="#" className="btn btn--orange">
                         <img src={ git } alt="Github" />
                     </a>
                 </div>

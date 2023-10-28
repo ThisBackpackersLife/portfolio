@@ -16,22 +16,22 @@ function Contact() {
 
                                 <div className="form__group">
                                     <input type="text" className="form__input" placeholder="Full Name" id="name" required />
-                                    <label for="name" className="form__label">Full Name</label>
+                                    <label htmlFor="name" className="form__label">Full Name</label>
                                 </div>
 
-                                <div class="form__group">
+                                <div className="form__group">
                                     <input type="email" className="form__input" placeholder="Email Address" id="email" required /> 
-                                    <label for="email" className="form__label">Email Address</label>
+                                    <label htmlFor="email" className="form__label">Email Address</label>
                                 </div>
 
-                                <div class="form__group">
+                                <div className="form__group">
                                     <textarea className="form__input" cols="10" rows="7" placeholder="Would you like to connect? Add your message here!" id="message" name="message" />
                                 </div>
 
                                 <div className="form__group">
                                     <div className="form__radio-group u-margin-bottom-small">
                                         <input type="radio" className="form__radio-input" id="opp" name="reason" />
-                                        <label for="opp" className="form__radio-label">
+                                        <label htmlFor="opp" className="form__radio-label">
                                             <span className="form__radio-btn"></span>
                                             Opportunity
                                         </label>
@@ -39,7 +39,7 @@ function Contact() {
 
                                     <div className="form__radio-group">
                                         <input type="radio" className="form__radio-input" id="inq" name="reason" />
-                                        <label for="inq" className="form__radio-label">
+                                        <label htmlFor="inq" className="form__radio-label">
                                             <span className="form__radio-btn"></span>
                                             Inquiry                                       
                                         </label>
