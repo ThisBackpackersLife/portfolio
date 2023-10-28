@@ -19,6 +19,8 @@
         border-radius: 5px;
         display: table;
         overflow: hidden;
+        // opacity: 0;
+        transform: translate( -50%, -50% ) scale( .5 );
     }
 
     &__left {
@@ -30,7 +32,7 @@
         width: 66.6666667%;
         display: table-cell;
         vertical-align: middle;
-        // padding: 3rem 1rem;
+        padding: 3rem 1rem;
     }
 
     &__img-container{
@@ -43,10 +45,6 @@
         width: 95%;
         margin: 7px;
         border-radius: 3px;
-
-        // &-1 {
-        //     margin-top: 4rem;
-        // }
 
         &-3 {
             margin-bottom: 29px;
@@ -67,6 +65,10 @@
         visibility: visible;
     }
 
+    &:target &__content {
+
+    }
+
     &__close {
         &:link,
         &:visited {
@@ -77,7 +79,7 @@
             right: 2.5rem;
             font-size: 3rem;
             display: inline-block;
-            // line-height: 1; // moves x to top corner when window is smaller
+            line-height: 1; // moves x to top corner when window is smaller
         }
         
         &:hover {
