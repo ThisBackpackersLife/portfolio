@@ -6,11 +6,11 @@ import explore from "../../images/explore.jpg";
 
 function Popup() {
     return (
-        <div className="popup">
+        <div className="popup" id="popup">
             <div className="popup__content">
                 <div className="popup__left">
                     <div className="popup__img-container">
-                        <img src={ education } alt="Edu pic" className="popup__img popup__img-1" />
+                        <img src={ education } alt="Education pic" className="popup__img popup__img-1" />
                         <img src={ explore } alt="Explore pic" className="popup__img popup__img-2" />
                         <img src={ culinary } alt="Culinary pic" className="popup__img popup__img-3" />
                     </div>
