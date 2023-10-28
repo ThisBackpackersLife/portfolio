@@ -10,6 +10,7 @@ import Footer from './Footer';
 import Nav from './Nav';
 import Popup from './Popup';
 import Popup2 from './Popup2';
+import Popup3 from './Popup3';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Footer />
       <Popup />
       <Popup2 />
+      <Popup3/>
     </div>
   )
 }
