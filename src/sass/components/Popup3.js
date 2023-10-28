@@ -11,6 +11,9 @@ function Popup3() {
                         <img src={ culinary } alt="Culinary pic" className="popup__img popup__img-3" />
                     </div>
                 </div>
+                <div className="popup__right">
+                    
+                </div>
             </div>
         </div>
     )
