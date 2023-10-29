@@ -14,7 +14,7 @@ import Popup3 from './Popup3';
 
 function App() {
   return (
-    <div>
+    <main>
       <Nav />
       <Home />
       <About />
@@ -26,7 +26,7 @@ function App() {
       <Popup1 />
       <Popup2 />
       <Popup3/>
-    </div>
+    </main>
   )
 }
 
