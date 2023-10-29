@@ -8,18 +8,14 @@
 
   html {
     // Defines 1rem
-    font-size: 62.5%;
-
-    @include respond( phone ) {
-      font-size: 50%;
-    }
+    font-size: 62.5%; // 1rem = 10px/16px = 62.5%
 
     @include respond( tab-port ) {
       font-size: 60%;
     }
 
     @include respond( tab-land ) {
-      font-size: 70%;
+      font-size: 70%; 
     }
 
     @include respond( big-desktop ) {
