@@ -31,10 +31,11 @@
 // - tab-port
 // - tab-land
 // - big-desktop
+// 1em = 16px
 
 @mixin respond( $breakpoint ) {
     @if $breakpoint == phone {
-        @media ( max-width: 600px ) { @content };
+        @media ( max-width: 37.5em ) { @content }; // 600px
     }
     @if $breakpoint == tab-port {
         @media ( max-width: 900px ) { @content };
