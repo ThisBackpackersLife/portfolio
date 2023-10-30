@@ -195,6 +195,10 @@
             transform: rotateY( 0 );
         }
 
+        &__details {
+            padding: 1rem 3rem;
+        }
+
         // Back Side Styling
         &__cta {
             position: relative;
