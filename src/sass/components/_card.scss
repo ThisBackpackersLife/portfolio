@@ -173,4 +173,32 @@
     &__cta {
         @include absCenter;
     }
+
+    @include respond( tab-port ) {
+        height: auto;
+
+        &__side {
+            height: auto;
+            position: relative;
+            border-radius: 3px;
+
+
+            &--back {
+                transform: rotateY( 0 );
+            }
+        }
+
+        &:hover &__side--front {
+            transform: rotateY( 0 );
+        }
+
+        // Back Side Styling
+        &__cta {
+            position: relative;
+            top: 0;
+            left: 6rem;
+            transform: translate( 0 );
+            width: 100%;
+        }
+    }
 }
