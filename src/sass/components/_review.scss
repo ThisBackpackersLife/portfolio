@@ -32,7 +32,7 @@
 
         @include respond( phone ) {
             transform: translateX( -3rem ) skewX( 0 );
-            margin: 1rem;
+            margin: 2rem;
         }
     }
 
