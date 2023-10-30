@@ -29,6 +29,10 @@
         border-top: 1px solid $color-grey-dark;
         padding-top: 2rem;
         display: inline-block;
+
+        @include respond( tab-port ) {
+            padding: 8rem 0;
+        }
     }
 
     &__list {
