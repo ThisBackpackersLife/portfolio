@@ -6,6 +6,18 @@
     background-image: linear-gradient( to bottom, $color-black, $color-primary-dark );
     -webkit-background-clip: text;
     color: transparent;
+
+    @include respond( tab-land ) {
+        padding-left: 6rem;
+    }
+
+    @include respond( tab-port ) {
+        padding-left: 0;
+    }
+    
+    @include respond( phone ) {
+        padding-left: 0;
+    }
 }
 
 .feature-box {
