@@ -1,3 +1,49 @@
+.contact {
+    background-image: linear-gradient( 
+        105deg, 
+        rgba( $color-white, .7 ) 0%,
+        rgba( $color-white, .7 ) 50%,
+        transparent 50% 
+    ),
+    url( ../../images/G-Ducks.jpg );
+    background-size: cover;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba( $color-black, .2 );
+
+    @include respond( tab-land ) {
+        background-image: linear-gradient( 
+        105deg, 
+        rgba( $color-white, .7 ) 0%,
+        rgba( $color-white, .7 ) 65%,
+        transparent 65% 
+    ),
+    url( ../../images/G-Ducks.jpg );
+    background-size: cover;
+    }
+
+    @include respond( tab-port ) {
+        background-image: linear-gradient( 
+        to right, 
+        rgba( $color-white, .7 ) 0%,
+        rgba( $color-white, .7 ) 100%,
+    ),
+    url( ../../images/G-Ducks.jpg );
+    }
+
+    &__form {
+        width: 50%;
+        padding: 6rem;
+
+        @include respond( tab-land ) {
+            width: 65%;
+        }
+
+        @include respond( tab-port ) {
+            width: 100%;
+        }
+    }
+}
+
 .form {
 
     &__group:not( :last-child ) {
@@ -16,6 +62,10 @@
         width: 90%;
         display: block;
         transition: all .3s;
+
+        @include respond( tab-port ) {
+            width: 100%;
+        }
 
         &:focus {
             outline: none;
@@ -50,6 +100,11 @@
     &__radio-group {
         width: 49%;
         display: inline-block;
+
+        @include respond( tab-port ) {
+            width: 100%;
+            margin-bottom: 2rem;
+        }
     }
 
     &__radio-input {

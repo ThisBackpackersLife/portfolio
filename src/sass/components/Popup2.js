@@ -14,8 +14,8 @@ function Popup2() {
                         <iframe
                             src="https://www.loom.com/embed/dec7cad90060412497d1d6cda0470642?sid=911ca220-ddfc-4656-b16e-1301999e2aad"
                             frameBorder="0"
-                            webkitallowfullscreen={ true }
-                            mozallowfullscreen={ true }
+                            webkitallowfullscreen="true"
+                            mozallowfullscreen="true"
                             allowFullScreen={ true }
                             style={{ position: 'absolute', top: 17, left: 21, width: '100%', height: '100%' }}
                         ></iframe>
