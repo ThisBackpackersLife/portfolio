@@ -17,7 +17,7 @@ function About() {
             </div>
             <div className="row">
                     <div className="col-1-of-2">
-                    <h3 className="heading-tertiary u-margin-bottom-small">Travel & Family First</h3>
+                    <h3 className="heading-tertiary-2 u-margin-bottom-small">Travel & Family First</h3>
                         <p className="paragraph">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate exercitationem, asperiores dolorum nisi fuga facilis sint voluptates eos porro, reiciendis libero incidunt corrupti voluptas aliquam! Voluptates similique ut error!
                         </p>
