@@ -117,6 +117,7 @@ body {
 
 .paragraph {
     font-size: $default-font-size;
+    color: $color-grey-dark-4;
 
     &:not( :last-child ) {
         margin-bottom: 3rem;
