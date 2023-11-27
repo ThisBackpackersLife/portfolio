@@ -20,10 +20,10 @@ function Home() {
                     <span className="heading-primary--sub">&</span>
                     <span className="heading-primary--sub">Website Developer</span>
                 </h1>
-                <a href="#" className="btn btn--white btn--animated u-margin-top-sm">Download My Resume</a>
+                <a href="#section-projects" className="btn btn--white btn--animated u-margin-top-sm">Explore my creations</a>
                 <br></br>
                 <br></br>
-                <a href="#section-projects" className="btn btn--white btn--animated u-margin-bottom-small">Explore my creations</a>
+                <a href="#" className="btn btn--white btn--animated u-margin-bottom-small">Download My Resume</a>
             </div>
         </header>
     )
