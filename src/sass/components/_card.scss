@@ -13,6 +13,7 @@
         top: 0;
         left: 0;
         width: 100%;
+        -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
         border-radius: 3px;
         overflow: hidden;
@@ -160,6 +161,7 @@
             li {
                 text-align: center;
                 font-size: 1.5rem;
+                color: $color-grey-dark-4;
                 padding: 1rem;
 
                 &:not( :last-child ) {
@@ -174,7 +176,8 @@
         @include absCenter;
     }
 
-    @include respond( tab-port ) {
+    @media only screen and ( max-width: 56.25em ), only screen and ( hover:none ) {
+
         height: auto;
         border-radius: 3px;
         background-color: $color-white;
