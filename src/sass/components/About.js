@@ -19,7 +19,7 @@ function About() {
                     <div className="col-1-of-2">
                     <h3 className="heading-tertiary-2 u-margin-bottom-small">Travel & Family First</h3>
                         <p className="paragraph">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate exercitationem, asperiores dolorum nisi fuga facilis sint voluptates eos porro, reiciendis libero incidunt corrupti voluptas aliquam! Voluptates similique ut error!
+                        Family comes first, anchoring my life. Travel fuels my curiosity, offering cultural enrichment. Balancing these passions shapes my legacy, guiding both personal and professional pursuits. Prioritizing family bonds and cultural exploration defines my values, driving impactful contributions in life and software engineering. While I currently reside in High Ridge, Missouri, my heart resonates with Bozeman, Montana—the place I yearn to call home again. 
                         </p>
 
                         <h3 className="heading-tertiary-2 u-margin-bottom-small">Pursuing My Passion</h3>
