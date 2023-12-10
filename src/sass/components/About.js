@@ -33,7 +33,7 @@ function About() {
                     <div className="col-1-of-2">
                         <div className="composition">
                             <img src={ chichenImg } alt="Chichen Itza" className="composition__photo composition__photo--p1" />
-                            <img src={ cocoroImg } alt="Valle del Cocoro" className="composition__photo composition__photo--p2" />
+                            <img src={ cocoroImg1 } alt="Valle del Cocoro" className="composition__photo composition__photo--p2" />
                             <img src={ sanCrisImage } alt="San Cristobal de las Casas" className="composition__photo composition__photo--p3" />
                         </div> 
                     </div>

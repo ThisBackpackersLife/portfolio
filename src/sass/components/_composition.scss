@@ -30,7 +30,7 @@
     
         &--p2 {
             right: -1rem;
-            top: 15rem;
+            top: -15rem;
 
             @include respond( tab-port ) {
                 top: -1rem;
