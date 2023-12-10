@@ -2,6 +2,7 @@ import React from "react";
 // Import Images:
 import chichenImg from "../../images/ChichenItza.jpg";
 import cocoroImg from "../../images/ValleDelCocoro.jpg";
+import cocoroImg1 from "../../images/Cocoro2.jpg";
 import sanCrisImage from "../../images/SanCristobal.jpg";
 
 // Import SASS/CSS Styling:
