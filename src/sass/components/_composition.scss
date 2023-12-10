@@ -40,7 +40,7 @@
         }
     
         &--p3 {
-            left: 7rem;
+            left: 3rem;
             top: 19rem;
 
             @include respond( tab-port ) {
@@ -48,6 +48,8 @@
                 left: 0;
                 transform: scale( 1.1 );
             }
+
+            transform: scale( 1.2 );
         }
 
         &--p4 {
