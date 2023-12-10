@@ -29,8 +29,8 @@
         }
     
         &--p2 {
-            right: -1rem;
-            top: -15rem;
+            right: 3rem;
+            top: -1rem;
 
             @include respond( tab-port ) {
                 top: -1rem;
@@ -52,7 +52,7 @@
 
         &:hover {
             outline: 1.5rem solid $color-primary;
-            transform: scale( 1.5 ) translateY( -.5rem );
+            transform: scale( 1.30 ) translateY( -.5rem );
             box-shadow: 0 2.5rem 4rem rgba( $color-black, .5 );
             z-index: 20;
         }
