@@ -17,7 +17,6 @@ function Home() {
                     <span className="heading-primary--main">Nicholas Martin</span>
                     <br></br>
                     <span className="heading-primary--sub">Software_Engineer</span>
-                    {/* <span className="heading-primary--sub">&</span> */}
                     <span className="heading-primary--sub">Application_Developer</span>
                 </h1>
                 <a href="#section-projects" className="btn-1 btn--white btn--animated u-margin-top-sm">Explore creations</a>
