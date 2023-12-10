@@ -19,7 +19,7 @@
         
         &--p1 {
             left: 0;
-            top: -2rem;
+            top: 11rem;
 
             @include respond( tab-port ) {
                 top: 0;
@@ -30,7 +30,7 @@
     
         &--p2 {
             right: -1rem;
-            top: 3rem;
+            top: 15rem;
 
             @include respond( tab-port ) {
                 top: -1rem;
@@ -41,7 +41,7 @@
     
         &--p3 {
             left: 10%;
-            top: 11rem;
+            top: 23rem;
 
             @include respond( tab-port ) {
                 top: 1rem;
