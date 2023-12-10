@@ -35,6 +35,7 @@ function About() {
                             <img src={ chichenImg } alt="Chichen Itza" className="composition__photo composition__photo--p1" />
                             <img src={ cocoroImg1 } alt="Valle del Cocoro" className="composition__photo composition__photo--p2" />
                             <img src={ sanCrisImage } alt="San Cristobal de las Casas" className="composition__photo composition__photo--p3" />
+                            <img src={ null } alt="" className="composition__photo composition__photo--p4" />
                         </div> 
                     </div>
                 </div>
