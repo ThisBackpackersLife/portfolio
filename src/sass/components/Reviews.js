@@ -61,15 +61,7 @@ function Reviews() {
                     <div className="review__text">
                         <h3 className="heading-tertiary-2 u-margin-bottom-small">Macolister Bispo: Full Stack Developer 🧑‍💻📱💾</h3>
                         <p className="paragraph">
-                        I had the privilege of collaborating with Nicholas, a true expert in Python and Flask. His invaluable contributions in setting up our backend were instrumental in our project's success.
-
-                        Although I couldn't attend the initial kickoff, Nicholas was quick to bridge the gap and went above and beyond to accommodate my schedule. We consistently found time for insightful discussions following our standup meetings, where we exchanged ideas and diligently charted our course of action. Nicholas exhibited unwavering dedication to brainstorming and implementing fresh ideas, always welcoming constructive feedback, which he used to enhance his already exceptional work.
-
-                        hen I initially attempted to establish our models and Python backend to provide a starting point for the team, Nicholas effortlessly identified and rectified my minor errors. He also streamlined our database structure to align perfectly with the hackathon's requirements. Nicholas's work on the database was nothing short of amazing, and he even incorporated validation methods and user login features seamlessly.
-
-                        In the midst of a demanding project schedule, where we had to create a minimum viable product (MVP) in just two weeks, Nicholas's dedication and focus were crucial. He didn't just meet our requirements; he went above and beyond. As a result, our project not only met the MVP criteria but also won the Most Innovative award.
-
-I wholeheartedly believe that any team fortunate enough to have Nicholas onboard would benefit immensely from his coding prowess, his excellent interpersonal and communication skills, and his unyielding commitment to meeting deadlines, accepting criticism, and continuously propelling innovative ideas forward.
+                        Collaborating with Nicholas, a Python and Flask expert, was pivotal for our project's backend success. His expertise streamlined our database, fixed errors in the initial setup, and implemented seamless user login features. Nicholas's unwavering dedication to brainstorming fresh ideas, coupled with his openness to feedback, elevated his already exceptional work. He went above and beyond, not just meeting but surpassing requirements. His efforts didn't just ensure MVP criteria; they secured us the Most Innovative award. Nicholas excels not only in coding but also in communication and meeting deadlines. His contributions, from insightful discussions to implementing enhancements, were instrumental. Any team fortunate enough to have Nicholas onboard will benefit immensely from his coding prowess, communication skills, and commitment to innovation.
                         </p>
                     </div>
                 </div>
