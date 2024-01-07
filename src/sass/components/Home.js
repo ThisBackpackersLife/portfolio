@@ -19,7 +19,7 @@ function Home() {
                     <span className="heading-primary--sub">Software_Engineer</span>
                     <span className="heading-primary--sub">Application_Developer</span>
                 </h1>
-                <a href="#section-projects" className="btn-1 btn--white btn--animated u-margin-top-sm">Explore creations</a>
+                <a href="#projects" className="btn-1 btn--white btn--animated u-margin-top-sm">Explore creations</a>
                 <br></br>
                 <br></br>
                 <a href="#" className="btn-1 btn--white btn--animated u-margin-bottom-small">Download resume</a>
