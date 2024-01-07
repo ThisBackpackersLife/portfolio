@@ -73,7 +73,7 @@ function Projects() {
                             <div className="card__side card__side--back card__side--back-2">
                                 <div className="card__cta">
                                         <div className="card__box">
-                                            <a href="#" className="btn btn--white">
+                                            <a href="https://github.com/ThisBackpackersLife/p5-project" className="btn btn--white">
                                                 <img src={ git } alt="Github" className="card__picture card__picture--back" />
                                             </a>
                                             <br/>
