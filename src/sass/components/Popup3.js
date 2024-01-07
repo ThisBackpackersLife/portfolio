@@ -29,7 +29,7 @@ function Popup3() {
                         Culinary Critic is an innovative web application designed to elevate restaurant discovery and user experiences through comprehensive restaurant reviews. The platform empowers users to explore an extensive array of restaurants by employing diverse search criteria such as keywords, cuisines, price ranges, and dietary considerations. Central to its functionality is the ability for users to rate and review their preferred dining spots, fostering a community-driven hub for culinary enthusiasts. Culinary Critic amalgamates cutting-edge technologies to deliver a seamless and engaging platform for culinary enthusiasts, fostering a vibrant community centered around exploring, reviewing, and sharing remarkable dining experiences.
                     </p>
                     <div className="popup__btn-container">
-                        <a href="#section-reviews" className="btn btn--blue popup__btn-1">Reviews</a>
+                        <a href="#reviews" className="btn btn--blue popup__btn-1">Reviews</a>
                         <a href="#section-contact" className="btn btn--blue popup__btn-2">Contact</a>
                     </div>
                 </div>
