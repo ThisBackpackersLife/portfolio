@@ -30,7 +30,7 @@ function Popup2() {
                     </p>
                     <div className="popup__btn-container">
                         <a href="#reviews" className="btn btn--orange popup__btn-1">Reviews</a>
-                        <a href="#section-contact" className="btn btn--orange popup__btn-2">Contact</a>
+                        <a href="#contact" className="btn btn--orange popup__btn-2">Contact</a>
                     </div>
                 </div>
             </div>
