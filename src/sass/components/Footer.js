@@ -34,7 +34,7 @@ function Footer() {
                         <a href="#" className="footer__link--imageParent">
                             <img src={ gmail } alt="Email Nicholas" className="footer__link--image"/>
                         </a>
-                        <a href="https://www.linkedin.com/in/nicholas-martin-software-engineer/" className="footer__link--imageParent">
+                        <a href="https://www.linkedin.com/in/nicholas-martin-software-engineer/" target="_blank" className="footer__link--imageParent">
                             <img src={ linkedin } alt=" Nicholas' LinkedIn" className="footer__link--image"/>
                         </a>
                     </p>
