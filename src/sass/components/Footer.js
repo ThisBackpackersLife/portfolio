@@ -18,7 +18,7 @@ function Footer() {
                     <div className="footer__navigation">
                     <ul className="footer__list">
                         <li className="footer__item"><a href="#" className="footer__link">Home</a></li>
-                        <li className="footer__item"><a href="#" className="footer__link">About</a></li>
+                        <li className="footer__item"><a href="#about" className="footer__link">About</a></li>
                         <li className="footer__item"><a href="#" className="footer__link">My Stack</a></li>
                         <li className="footer__item"><a href="#" className="footer__link">Projects</a></li>
                         <li className="footer__item"><a href="#" className="footer__link">Reviews</a></li>
