@@ -9,7 +9,7 @@ import waveWebm from "../../images/Waves.webm"
 function Reviews() {
 
     return(
-        <section className="section-reviews">
+        <section className="section-reviews" id="section-reviews">
             <div className="bg-video">
                 <video className="bg-video__content" autoPlay muted loop playsInline>
                     <source src={ waveMp4 } type="video/mp4" />
