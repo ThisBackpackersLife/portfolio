@@ -5,7 +5,7 @@ import '../main.scss';
 function Stack() {
 
     return (
-        <section className="section-stack">
+        <section className="section-stack" id="stack">
                 <h2 className="feature-heading u-center-text u-margin-top-big">My Stack</h2>
                 <div className="row">
                     <div className="col-1-of-4">
