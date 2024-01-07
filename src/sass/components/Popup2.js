@@ -29,7 +29,7 @@ function Popup2() {
                         Have you ever struggled to keep track of all the details when planning a trip with multiple destinations? I know I sure have! That's why I created ExploreMate, a comprehensive travel planning tool. With ExploreMate, users can easily choose from a wide range of destinations, plan their trip down to the smallest detail, and even search for activities. In this video, I'll demonstrate how users can sign up, create a new trip, add destinations, and manage their itineraries. Let's dive in together and explore the incredible features of ExploreMate!
                     </p>
                     <div className="popup__btn-container">
-                        <a href="#" className="btn btn--orange popup__btn-1">Reviews</a>
+                        <a href="#section-reviews" className="btn btn--orange popup__btn-1">Reviews</a>
                         <a href="#" className="btn btn--orange popup__btn-2">Contact</a>
                     </div>
                 </div>
