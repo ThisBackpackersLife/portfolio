@@ -19,7 +19,7 @@ function Footer() {
                     <ul className="footer__list">
                         <li className="footer__item"><a href="#" className="footer__link">Home</a></li>
                         <li className="footer__item"><a href="#about" className="footer__link">About</a></li>
-                        <li className="footer__item"><a href="#" className="footer__link">My Stack</a></li>
+                        <li className="footer__item"><a href="#stack" className="footer__link">My Stack</a></li>
                         <li className="footer__item"><a href="#" className="footer__link">Projects</a></li>
                         <li className="footer__item"><a href="#" className="footer__link">Reviews</a></li>
                         <li className="footer__item"><a href="#" className="footer__link">Contact</a></li>
