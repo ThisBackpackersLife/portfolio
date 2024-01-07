@@ -26,7 +26,7 @@ function Popup2() {
                     <h2 className="heading-secondary popup__h2">Get to know my projects!</h2>
                     <h3 className="heading-tertiary popup__h3">ExploreMate</h3>
                     <p className="popup__text">
-                    Have you ever struggled to keep track of all the details when planning a trip with multiple destinations? I know I sure have! That's why I created ExploreMate, a comprehensive travel planning tool. With ExploreMate, users can easily choose from a wide range of destinations, plan their trip down to the smallest detail, and even search for activities. In this video, I'll demonstrate how users can sign up, create a new trip, add destinations, and manage their itineraries. Let's dive in together and explore the incredible features of ExploreMate!
+                        Have you ever struggled to keep track of all the details when planning a trip with multiple destinations? I know I sure have! That's why I created ExploreMate, a comprehensive travel planning tool. With ExploreMate, users can easily choose from a wide range of destinations, plan their trip down to the smallest detail, and even search for activities. In this video, I'll demonstrate how users can sign up, create a new trip, add destinations, and manage their itineraries. Let's dive in together and explore the incredible features of ExploreMate!
                     </p>
                     <div className="popup__btn-container">
                         <a href="#" className="btn btn--orange popup__btn-1">Reviews</a>
