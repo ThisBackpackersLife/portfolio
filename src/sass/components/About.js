@@ -10,7 +10,7 @@ import '../main.scss';
 
 function About() {
     return (
-        <section className="section-about">
+        <section className="section-about" id="about">
             <div className="u-center-text u-margin-bottom-big">
                 <h2 className="heading-secondary">
                     Meet the Engineer
