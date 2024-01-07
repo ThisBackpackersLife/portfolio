@@ -123,7 +123,7 @@ function Projects() {
                 </div>
 
                 <div className="u-center-text u-margin-top-huge">
-                    <a href="https://github.com/ThisBackpackersLife" className="btn btn--orange">
+                    <a href="https://github.com/ThisBackpackersLife" target="_blank" className="btn btn--orange">
                         <img src={ git } alt="Github" />
                     </a>
                 </div>
