@@ -28,7 +28,7 @@ function About() {
                             Software engineering isn't just a career—it's my calling. With a strong technical foundation encompassing Python, React, JavaScript, and more, I bring a unique blend of expertise and passion to every project. Transitioning from a beloved local bartender, I've always thrived on crafting experiences. Now, I fuse code with creativity, transforming ideas into tangible digital realities. My diverse background, from backpacking through Latin America to serving in the US Navy, shapes my holistic perspective in problem-solving and innovation. Coding isn't just a skill; it's my passion—a journey of continuous growth. As a developer, I'm here to create, innovate, and bring visions to life through the power of code.
                         </p>
 
-                        <a href="#section-contact" className="btn-text">🤓 Let's collab! &rarr;</a>
+                        <a href="#contact" className="btn-text">🤓 Let's collab! &rarr;</a>
                     </div>
                     <div className="col-1-of-2">
                         <div className="composition">
