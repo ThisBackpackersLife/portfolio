@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Nav() {
-    
+    const [ isMenuOpen, setIsMenuOpen ] = useState( false )
+
+
     return (
         <div className="nav">
             <input type="checkbox" className="nav__checkbox" id="nav-toggle" />
