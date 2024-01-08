@@ -28,7 +28,7 @@ function Nav() {
                     <li className="nav__item"><a href="#stack" className="nav__link" onClick={ closeMenu }>My Stack</a></li>
                     <li className="nav__item"><a href="#projects" className="nav__link" onClick={ closeMenu }>Projects</a></li>
                     <li className="nav__item"><a href="#reviews" className="nav__link" onClick={ closeMenu }>Reviews</a></li>
-                    <li className="nav__item"><a href="#contact" className="nav__link">Contact</a></li>
+                    <li className="nav__item"><a href="#contact" className="nav__link" onClick={ closeMenu }>Contact</a></li>
                 </ul>
             </div>
         </div>
