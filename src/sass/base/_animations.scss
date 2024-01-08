@@ -41,3 +41,18 @@
         transform: translate( 0 );
     }
 }
+
+@keyframes wobble {
+    0% {
+      transform: rotate(-10deg);
+    }
+    33% {
+      transform: rotate(15deg);
+    }
+    67% {
+      transform: rotate(-15deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
