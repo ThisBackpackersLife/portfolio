@@ -3,6 +3,10 @@ import React, { useState } from "react";
 function Nav() {
     const [ isMenuOpen, setIsMenuOpen ] = useState( false )
 
+    const toggleMenu = () => {
+        setIsMenuOpen( !isMenuOpen )
+    }
+
 
     return (
         <div className="nav">
