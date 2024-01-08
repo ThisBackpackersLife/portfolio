@@ -10,6 +10,7 @@ function Home() {
         <header className="header">
             <div className="header__logo-box">
                 <img src={ logo } alt="Nicholas Logo" className="header__logo" />
+                <a href="#" />
             </div>
             <div className="header__text-box">
                 <h1 className="heading-primary">

@@ -30,6 +30,10 @@
         height: 20rem;
         width: auto;
     }
+
+    &__logo:hover {
+        animation: wobble 3s ease-out;
+      }
     
     &__text-box {
         position: absolute;
