@@ -23,7 +23,7 @@ function Nav() {
 
             <div className={ `nav__nav ${ isMenuOpen ? 'open' : '' } ` }>
                 <ul className="nav__list">
-                    <li className="nav__item"><a href="#" className="nav__link">Home</a></li>
+                    <li className="nav__item"><a href="#" className="nav__link" onClick={closeMenu}>Home</a></li>
                     <li className="nav__item"><a href="#about" className="nav__link">About</a></li>
                     <li className="nav__item"><a href="#stack" className="nav__link">My Stack</a></li>
                     <li className="nav__item"><a href="#projects" className="nav__link">Projects</a></li>
