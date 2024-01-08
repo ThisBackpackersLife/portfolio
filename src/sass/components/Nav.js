@@ -7,6 +7,9 @@ function Nav() {
         setIsMenuOpen( !isMenuOpen )
     }
 
+    const closeMenu = () => {
+        setIsMenuOpen( false )
+    }
 
     return (
         <div className="nav">
