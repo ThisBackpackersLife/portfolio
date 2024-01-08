@@ -11,7 +11,7 @@ function Nav() {
         setIsMenuOpen( false )
     }
 
-    const linksClassName = () => `nav__link ${ !isMenuOpen ? 'inactive' : '' } `
+    // const linksClassName = () => `nav__link ${ !isMenuOpen ? 'inactive' : '' } `
 
     return (
         <div className="nav">
@@ -25,7 +25,7 @@ function Nav() {
 
             <div className={ `nav__nav ${ isMenuOpen ? 'open' : '' } ` }>
                 <ul className="nav__list">
-                    <li className="nav__item"><a href="#" className={ linksClassName } onClick={ closeMenu }>Home</a></li>
+                    <li className="nav__item"><a href="#" className="nav__link" onClick={ closeMenu }>Home</a></li>
                     <li className="nav__item"><a href="#about" className="nav__link" onClick={ closeMenu }>About</a></li>
                     <li className="nav__item"><a href="#stack" className="nav__link" onClick={ closeMenu }>My Stack</a></li>
                     <li className="nav__item"><a href="#projects" className="nav__link" onClick={ closeMenu }>Projects</a></li>
