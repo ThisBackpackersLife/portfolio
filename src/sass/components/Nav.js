@@ -11,6 +11,8 @@ function Nav() {
         setIsMenuOpen( false )
     }
 
+    const linksClassName = () => `nav__link ${ !isMenuOpen ? 'inactive' : '' } `
+
     return (
         <div className="nav">
             <input type="checkbox" className="nav__checkbox" id="nav-toggle" checked={ isMenuOpen } onChange={ toggleMenu } />
