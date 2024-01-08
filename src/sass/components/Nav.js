@@ -13,15 +13,15 @@ function Nav() {
 
     return (
         <div className="nav">
-            <input type="checkbox" className="nav__checkbox" id="nav-toggle" />
+            <input type="checkbox" className="nav__checkbox" id="nav-toggle" checked={ isMenuOpen } onChange={ toggleMenu } />
 
             <label htmlFor="nav-toggle" className="nav__btn">
                 <span className="nav__icon">&nbsp;</span>
             </label>
 
-            <div className="nav__bg">&nbsp;</div>
+            <div className="nav__bg" onClick={ closeMenu } >&nbsp;</div>
 
-            <div className="nav__nav">
+            <div className={ `nav__nav ${ isMenuOpen ? 'open' : '' } ` }>
                 <ul className="nav__list">
                     <li className="nav__item"><a href="#" className="nav__link">Home</a></li>
                     <li className="nav__item"><a href="#about" className="nav__link">About</a></li>
