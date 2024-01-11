@@ -23,7 +23,7 @@ function Nav() {
 
             <div className="nav__bg" onClick={ closeMenu } >&nbsp;</div>
 
-            { isMenuOpen && (
+            {/* { isMenuOpen && ( */}
                 <div className={ `nav__nav ${ isMenuOpen ? 'open' : '' } ` }>
                     <ul className="nav__list">
                         <li className="nav__item"><a href="#" className="nav__link" onClick={ closeMenu }>Home</a></li>
@@ -34,7 +34,7 @@ function Nav() {
                         <li className="nav__item"><a href="#contact" className="nav__link" onClick={ closeMenu }>Contact</a></li>
                     </ul>
                 </div>
-            )}
+            {/* )} */}
         </div>
     )
 }
