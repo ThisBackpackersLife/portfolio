@@ -7,9 +7,9 @@ function Popup1() {
 
     const openPopup = () => setIsPopupOpen( true )
     const closePopup = () => setIsPopupOpen( false )
-    
+
     return (
-        <div className="popup" id="popup1">
+        <div className={ `popup ${ isPopupOpen ? "open" : "" } ` } id="popup1">
             <div className="popup__bg" >
                 <div className="popup__content">
                     <div className="popup__left">
