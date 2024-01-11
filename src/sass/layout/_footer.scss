@@ -30,8 +30,8 @@
     }
 
     &__navigation {
-        border-top: 1px solid $color-grey-dark;
-        padding-top: 1rem;
+        border-bottom: 1px solid $color-grey-dark;
+        padding-top: 15rem;
         display: inline-block;
 
         @include respond( tab-port ) {
