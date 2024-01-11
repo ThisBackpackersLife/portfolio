@@ -22,7 +22,9 @@ function Home() {
                 <a href="#projects" className="btn-1 btn--white btn--animated u-margin-top-sm">Explore creations</a>
                 <br></br>
                 <br></br>
-                <a href="../images/Nicholas_Martin_Resume" className="btn-1 btn--white btn--animated u-margin-bottom-small" download>Download resume</a>
+                <a href="/images/Nicholas_Martin_Resume.pdf" className="btn-1 btn--white btn--animated u-margin-bottom-small" download
+                    >Download resume
+                </a>
             </div>
         </header>
     )
