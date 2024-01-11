@@ -1,16 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 // Import images here:
 import education from "../../images/Education.jpg";
 
 function Popup1() {
-    const [ isPopupOpen, setIsPopupOpen ] = useState( false )
-
-    const openPopup = () => setIsPopupOpen( true )
-    const closePopup = () => setIsPopupOpen( false )
-
     return (
-        <div className={ `popup ${ isPopupOpen ? "open" : "" } ` } id="popup1">
-            <div className="popup__bg" onClick={ closePopup }>
+        <div className="popup" id="popup1">
+            <div className="popup__bg" >
                 <div className="popup__content">
                     <div className="popup__left">
                         <div className="popup__img-container">
