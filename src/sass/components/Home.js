@@ -23,7 +23,7 @@ function Home() {
                 <br></br>
                 <br></br>
                 <a href="/images/Nicholas_Martin_Resume.pdf" className="btn-1 btn--white btn--animated u-margin-bottom-small" download
-                    >Download resume
+                    >Download resum&eacute;
                 </a>
             </div>
         </header>
