@@ -4,7 +4,7 @@ import education from "../../images/Education.jpg";
 
 function Popup1() {
     return (
-        <div className="popup" id="popup">
+        <div className="popup" id="popup1">
             <div className="popup__content">
                 <div className="popup__left">
                     <div className="popup__img-container">
